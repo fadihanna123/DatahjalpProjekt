@@ -1,0 +1,36 @@
+/* Stylemall för surfplattor */
+@media screen and (min-width: 400px) and (max-width: 800px)
+{
+	#container
+	{
+	font-family: "Times New Roman", Times, serif; /* Typsnittlista på vilka typsnitt webbläsare ska använda */
+	} 
+	#search
+	{
+		position: absolute;
+		bottom: 465px;  /* Flytta sökdelen till uppe 465px */
+		left: 10px;  /* Flytta sökdelen till vänster 10px */
+	}
+	#srch
+	{
+		width: 240%; /* Gör sökfältet ha bredd 240% */
+		margin-top: 40px;  /* Flytta sökfältet till nere 40px */
+		
+	}
+	#srchbtn
+	{
+		position: relative;
+		left: 440px; /* Flytta sökfältet till vänster 440px */
+		bottom: 22px;  /* Flytta sökfältet till uppe 22px */
+
+	}
+	#logo
+	{
+		position: relative;
+		right: 150px; /* Flytta sökfältet till höger 150px */
+	}
+	#abouttxt
+	{
+		width: 60%; /* Gör omtexten ha bredd 60% */
+	}
+}
