@@ -1,0 +1,108 @@
+<!-- Huvuddelen av koden -->
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <!-- Olika metoder för att låta webbläsare läsa in denna sida i bra sätt som språket, att anpassa sidan i olika enheter och att länka sidan till olika css stylemaller -->
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/main.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/tab.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/mobile.css" type="text/css" media="screen" />
+        <!-- Titeln av sidan -->
+        <title>Datahjälp AB - om oss</title>
+    </head>
+    <!-- Slutet på huvuddelen av koden -->
+    <body>
+        <div id="container">
+            <!-- Huvudelen av hemsidan -->
+            <header>
+                <br />
+                <!-- Logo delen -->
+                <div id="logo">
+                    <br />
+                    <a href="index.html"><img src="images/logo.jpg" id="sidlogo" alt="Sidans logo" title="Datahjälp logo" /></a>
+                </div>
+                <!-- Slut på logodelen -->
+                <br />
+                <!-- Skapa en linje -->
+                <hr id="firstline" />
+                <!-- Skapa en meny anpassad för små enheter -->
+                <select id="menu" onchange="window.location = this.value;">
+                    <option value="index.html">Startsida</option>
+                    <option value="prices.html">Priser</option>
+                    <option value="competition.html">Tävling</option>
+                    <option value="contact.html">Kontakta oss</option>
+                    <option value="about.html" selected>Om oss</option>
+                </select>
+                <!-- Slut på menyen anpassad för små enheter -->
+                <nav id="mainnav">
+                    <!-- Skapa ett sökfältsformulär-->
+                    <div id="search">
+                        <form method="post">
+                            <input type="text" id="srch" name="searchbox" placeholder="Sök här" />
+                            <input id="srchbtn" type="submit" name="srch" value="Sök" />
+                        </form>
+                    </div>
+                    <!-- Slut på sökfältetsformuläret -->
+                    <!-- Skapa navigerinslänkar -->
+                    <span><a title="Home" href="index.html">Startsida</a></span>
+                    <span><a title="Prices" href="prices.html">Priser</a></span>
+                    <span><a title="Competition" href="competition.html">Tävling</a></span>
+                    <span><a title="Contact" href="contact.html">Kontakta oss</a></span>
+                    <span><a title="About">Om oss</a></span>
+                </nav>
+                <!-- Slut på navigerinslänkarna och skapa en slutlinje för menyer -->
+                <hr id="secondline" />
+            </header>
+            <!-- Slut på Huvuddelen av hemsidan-->
+            <div id="main">
+                <!-- Skapa om delen-->
+                <h1><strong>Vem är vi?</strong></h1>
+
+                <p id="abouttxt">Först välkomnar vi dig till vår hemida som infomrerar om vår service. Vi är en datareparationsaffär som jobbar för att laga datorer.
+                    Vi tar hand om din dator och ger dig den i bästa skick.
+                    Har du problem/fel i din dator så du behöver inte oroa dig längre om hur du fixar och i billiga priser. Vi sänker varje år priserna för att du ska inte tänka på de dyra priser för att laga din dator.
+                    Vi vill bli en av bästa datareparationsaffär som har mest nöjda kunder. Välkommen att besöka oss i affären.</p>
+                <p>Adress:
+                    Ringvägen 5, Stockholm.
+                    <br />
+                    E-postadress: 
+                    datahjalpab@hotmail.com
+                    <br />
+                    Telefonnummer:
+                    08-4751014 
+                    <br />
+                    Mobilnummer: 
+                    073-5798048
+                    <br />
+                </p>
+
+            </div>
+            <!-- Skapa en linje-->
+            <hr />
+            <!-- Slut på om delen-->
+            <!-- Sidfoten-->
+            <footer>
+                <p>
+                    Datahjälp AB 
+                </p>
+                <p>Adress:
+                    Ringvägen 5, Stockholm.
+                    <br />
+                    E-postadress: 
+                    datahjalpab@hotmail.com
+                    <br />
+                    Telefonnummer:
+                    08-4751014 
+                    <br />
+                    Mobilnummer: 
+                    073-5798048
+                    <br />
+                </p>
+            </footer>
+            <!-- Slut på sidfoten-->
+        </div>
+    </body>
+</html>
+<!-- Slut på koden-->

@@ -1,0 +1,141 @@
+<!-- Huvuddelen av koden -->
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <!-- Olika metoder för att låta webbläsare läsa in denna sida i bra sätt som språket, att anpassa sidan i olika enheter och att länka sidan till olika css stylemaller -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/main.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/tab.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/mobile.css" type="text/css" media="screen" />
+        <!-- Titeln av sidan -->
+        <title>Datahjälp AB - tävling</title>
+    </head>
+    <!-- Slutet på huvuddelen av koden -->
+    <body>
+        <div id="container">
+            <!-- Huvudelen av hemsidan -->
+            <header>
+                <br />
+                <!-- Logo delen -->
+                <div id="logo">
+                    <a href="index.html"><img src="images/logo.jpg" id="sidlogo" alt="Sidans logo" title="Datahjälp logo" /></a>
+                </div>
+                <!-- Slut på logodelen -->
+                <br />
+                <br />
+                <!-- Skapa en linje -->
+                <hr id="firstline" />
+                <!-- Skapa en meny anpassad för små enheter -->
+                <select id="menu" onchange="window.location = this.value;">
+                    <option value="index.html">Startsida</option>
+                    <option value="prices.html">Priser</option>
+                    <option value="competition.html" selected>Tävling</option>
+                    <option value="contact.html">Kontakta oss</option>
+                    <option value="about.html">Om oss</option>
+                </select>
+                <!-- Slut på menyen anpassad för små enheter -->
+                <nav id="mainnav">
+                    <!-- Skapa ett sökfältsformulär-->
+                    <div id="search">
+                        <form method="post">
+                            <input type="text" id="srch" name="searchbox" placeholder="Sök här" />
+                            <input id="srchbtn" type="submit" name="srch" value="Sök" />
+                        </form>
+                    </div>
+                    <!-- Slut på sökfältetsformuläret -->
+                    <!-- Skapa navigerinslänkar -->	<span><a title="Home" href="index.html">Startsida</a></span>
+                    <span><a title="Prices" href="prices.html">Priser</a></span>
+                    <span><a title="Competition">Tävling</a></span>
+                    <span><a title="Contact" href="contact.html">Kontakta oss</a></span>
+                    <span><a title="About" href="about.html">Om oss</a></span>
+                </nav>
+                <!-- Slut på navigerinslänkarna och skapa en slutlinje för menyer -->
+                <hr id="secondline" />
+            </header>
+            <!-- Slut på Huvuddelen av hemsidan-->
+            <div id="main">
+                <!-- Skapa tävlingsinformation-->
+                <h1>Tävling</h1>
+                <p>Varje år anordnar vi en tävling som resulterar på en vinnare som får ett gratis helt år datahjälp av oss + en en  HTC express mobil. Nu är det dags för dig att vinna. Berätta om hur var ditt besök egentligen.</p>
+                <br />
+                <p>* fälten är obligatoriska</p>
+                <!-- Skapa en tabell med ett tävlingsformulär-->
+                <form method="post" id="competitionsform">
+                    <table id="formtable">
+                        <tr>
+                            <td>Ditt namn:*</td>
+                            <td>
+                                <input type="text" id="firsttxt" name="nametxt" autofocus /></td>
+                        </tr>
+                        <tr>
+                            <td>Din e-postadress:*</td>
+                            <td><input id="mailtxt" type="email" name="emailtxt" /></td>
+                        </tr>
+                        <tr>
+                            <td>Hur var ditt besök:*</td>
+                            <td>
+                                <select id="chooserang" name="rank">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Varför vill du delta i den här tävlingen:*</td>
+                            <td>
+                                <textarea cols="50" class="comtxtarea" rows="4" name="whytxt">
+
+                                </textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Övriga frågor/kommentarer:</td>
+                            <td><textarea class="comtxtarea" cols="50" rows="5" name="other">
+
+                                </textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="hidden"></td>
+                            <td class="hidden"><input type="submit" value="Skicka" /></td>
+                        </tr>
+                    </table>			
+                </form>
+                <!-- Slut på tabellen med ett tävlingsformulär-->
+            </div>
+            <!-- Slut på tävlingsdelen och skapa en linje-->
+            <hr />
+            <!-- Sidfoten-->
+            <footer>
+                <p>
+                    Datahjälp AB 
+                </p>
+                <p>Adress:
+                    Ringvägen 5, Stockholm.
+                    <br />
+                    E-postadress: 
+                    datahjalpab@hotmail.com
+                    <br />
+                    Telefonnummer:
+                    08-4751014 
+                    <br />
+                    Mobilnummer: 
+                    073-5798048
+                    <br />
+                </p>
+            </footer>
+            <!-- Slut på sidfoten-->
+        </div>
+    </body>
+</html>
+<!-- Slut på koden-->
