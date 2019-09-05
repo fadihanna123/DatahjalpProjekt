@@ -7,7 +7,7 @@ Datahjälp är ett företag som informerar kunderna om företagets priser och ko
 Du kan ladda ner alla dessa filer och installera källkodsfiler i din lokala server eller egen hemsida.
 
 ## 1.3 Demo
-___
+
 [Länk till Demo](http://studenter.miun.se/~faha1801/dt057g/projekt/hemsidan_webutveckling%201/index.html)
 ## 1.4 Programmeringsspråk som används i projektet:
 HTML, CSS.
