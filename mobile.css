@@ -1,0 +1,69 @@
+/* Stylemall för mobiler */
+@media screen and (min-width: 400px) and (max-width: 500px)
+{
+	#container
+	{
+	font-family: "Times New Roman", Times, serif; /* Typsnittlista på vilka typsnitt webbläsare ska använda */
+	}
+	#search
+	{
+	
+		position: fixed; /* Gör sökdelen fast */
+		bottom: 680px; /* Flytta sökdelen till uppe 680px */
+		left: 10px; /* Flytta sökdelen till vänster 10px */
+	}
+	#srch
+	{
+		width: 180%; /* Gör bredden av sökfältet till 180% */
+		margin-top: 40px; /* Flytta sökfältet till uppe 40px */
+		border-radius: 0px; /* Ta bort sökfältets runda hörn */	
+	}
+	#srchbtn
+	{
+		border-radius: 0px; /* Ta bort sökknappens runda hörn */
+		position: relative;
+		left: 305px; /* Flytta sökknappen till vänster 305px */
+		bottom: 22px; /* Flytta sökdelen till nere 22px */
+	}
+	#sidlogo
+	{
+		width: 350%; /* Gör bredden på logosbilden till 350% */
+		position: relative;
+		right: 5px; /* Flytta logobilden till höger 100px */
+		margin-top:  20px; /* Flytta logobilden till nere 20px */
+	}
+	#menu
+	{
+		display: block; /* Visa länkarmeny */
+		margin: 0px auto; /* Flytta länkarmeny till mitten */
+		width: 100%; /* Gör länkarmeny ha bredd 100% */
+	}
+	span
+	{
+		display: none; /* Dölja länkarlista */
+	}
+	#firstline, #secondline
+	{
+		width: 100%; /* Gör första linjen och andra linjen ha bredd 100% */
+	}
+
+	textarea
+	{
+		height: 10%; /* Gör alla de stora textfälten ha höjd 100% */
+    	width: 98%; /* Gör alla de stora textfälten ha bredd 98% */
+	}
+	#firsttxt
+	{
+		width: 99%; /* Gör bredden för namnsfältet till 100% */
+	}
+	#mailtxt
+	{
+		width: 99%; /* Gör bredden för mejlsfältet till 99% */
+	}
+	#abouttxt
+	{
+		width: 90%; /* Gör omtexten ha bredd 90% */
+		float: left; /* Flytta omtexten till vänster */
+	}
+
+}
