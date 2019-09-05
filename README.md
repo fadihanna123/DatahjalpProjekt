@@ -8,7 +8,7 @@ Du kan ladda ner alla dessa filer och installera källkodsfiler i din lokala ser
 **Demo:**
 ___
 [Länk till Demo](http://studenter.miun.se/~faha1801/dt057g/projekt/hemsidan_webutveckling%201/index.html)
-### Programmeringsspråk som används här:
+### Programmeringsspråk som används i projektet:
 HTML, CSS.
 ### Skärmdump av Datahjälp AB hemsidan
 ![alt text](https://github.com/fadihanna123/schoolwork/blob/master/screenshot.png "Screenshot av hemsidan")
