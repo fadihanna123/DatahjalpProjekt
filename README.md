@@ -6,7 +6,7 @@ Datahjälp är ett företag som informerar kunderna om företagets priser och ko
 ## Installation
 Du kan ladda ner alla dessa filer och installera källkodsfiler i din lokala server eller egen hemsida.
 
-#Demo
+# Demo
 ___
 [Länk till Demo](http://studenter.miun.se/~faha1801/dt057g/projekt/hemsidan_webutveckling%201/index.html)
 ### Programmeringsspråk som används i projektet:
