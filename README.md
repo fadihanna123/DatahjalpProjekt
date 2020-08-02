@@ -9,5 +9,5 @@ Du kan ladda ner alla dessa filer och installera källkodsfiler i din lokala ser
 ## 1.3 Programmeringsspråk som används i projektet:
 HTML, CSS.
 ## 1.4 Skärmdump av Datahjälp AB hemsidan
-![alt text](https://github.com/fadihanna123/schoolwork/blob/master/screenshot.png "Screenshot av hemsidan")
+![alt text](https://github.com/fadihanna123/schoolwork/blob/master/Images/screenshot.png "Screenshot av hemsidan")
 
