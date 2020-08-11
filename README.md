@@ -4,7 +4,8 @@ Detta är kort beskrivning om webbutveckling 1 projekt.
 
 ## 1.1 Datahjälp
 
-Datahjälp är ett företag som informerar kunderna om företagets priser och kontaktuppgifter till detta företag. Datahjälp hjälper kunder att laga sina datorer och företaget ligger i Ringvägen 5, Stockholm. Hemsidan är responsivt.
+Datahjälp är ett företag som informerar kunderna om företagets priser och kontaktuppgifter till detta företag. Datahjälp hjälper kunder att laga sina datorer och företaget ligger i Ringvägen 5, Stockholm. 
+<br>Hemsidan är responsivt.
 
 ## 1.2 Installation
 
