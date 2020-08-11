@@ -12,7 +12,7 @@ Du kan ladda ner alla dessa filer och installera källkodsfiler i din lokala ser
 
 ## 1.3 Programmeringsspråk som används i projektet:
 
-HTML, CSS.
+HTML och CSS.
 
 ## 1.4 Skärmdump av Datahjälp AB hemsidan
 
