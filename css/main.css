@@ -1,18 +1,16 @@
 /* Stylemall för desktop */
-#container
-{
-	font-family: "Times New Roman", Times, serif;  /* Typsnittlista på vilka typsnitt webbläsare ska använda */
-	margin: 10px;
+#container {
+  font-family: "Times New Roman", Times, serif; /* Typsnittlista på vilka typsnitt webbläsare ska använda */
+  margin: 10px;
 }
 
-#mainnav a
-{
-	border-radius: 10px; /* Skapa runda hörn runt länkarna */
-	padding: 6px; /* Lägg avstånd mellan länkarna 6px */
-	background: #292b2c;
-	border: 1px solid #292b2c;
-	color: #f7f7f7;
-	text-decoration: none;
+#mainnav a {
+  border-radius: 10px; /* Skapa runda hörn runt länkarna */
+  padding: 6px; /* Lägg avstånd mellan länkarna 6px */
+  background: #292b2c;
+  border: 1px solid #292b2c;
+  color: #f7f7f7;
+  text-decoration: none;
 }
 
 textarea:focus,
@@ -30,255 +28,214 @@ input[type="url"]:focus,
 input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
-.uneditable-input:focus 
-{   
+.uneditable-input:focus {
   border-color: #0275d8;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px lightblue;
   outline: 0 none;
 }
 
-
-.mysearchform
-{
-	padding: 10px;
+.mysearchform {
+  padding: 10px;
 }
 
-.line
-{
-	margin: 10px;
+.line {
+  margin: 10px;
 }
 
-#mainnav 
-{
-	display: flex;
-	margin: 10px;
-	background: #f7f7f7; 
-	justify-content: center;
-	text-align: center;
+#mainnav {
+  display: flex;
+  margin: 10px;
+  background: #f7f7f7;
+  justify-content: center;
+  text-align: center;
 }
 
-.mylogo
-{
-	display: flex;
-	justify-content: center;
-	margin: 10px;
+.mylogo {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
 }
 
-footer
-{
-	background-color: #1a0000; /* Gör sidfoten till vit */
-	height: 30%; /* Gör höjden av texten till 30% */
-	color: #f7f7f7;
-	margin: 10px;
-	text-align: center;
+footer {
+  background-color: #1a0000; /* Gör sidfoten till vit */
+  height: 30%; /* Gör höjden av texten till 30% */
+  color: #f7f7f7;
+  margin: 10px;
+  text-align: center;
 }
 
-.myheading
-{
-	color: #d9534f;
+.myheading {
+  color: #d9534f;
 }
 
-.main
-{
-	font-size: 20px; /* Gör textstorlek till 20px */
-	background-color: #5bc0de;
-	margin: 10px;
-	text-align: center;
+.main {
+  font-size: 20px; /* Gör textstorlek till 20px */
+  background-color: #5bc0de;
+  margin: 10px;
+  text-align: center;
 }
 
-select
-{
-	border: 1px solid #0275d8;
-	border-radius: 3px;
-	padding: 10px;
-	margin-bottom: 10px;
-	width: 100%;
+select {
+  border: 1px solid #0275d8;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
 }
 
-textarea
-{
-	border: 1px solid #0275d8;
-	border-radius: 3px;
-	padding: 10px;
-	margin-bottom: 10px;
-	width: 100%;
-	margin-top: 10px;
+textarea {
+  border: 1px solid #0275d8;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  margin-top: 10px;
 }
 
-
-.col-25
-{
-	width: 25%;
-	margin-bottom: 10px;
+.col-25 {
+  width: 25%;
+  margin-bottom: 10px;
 }
 
-
-.row
-{
-	display: flex;
-	margin: 10px;
-	justify-content: center;
-	margin-bottom: 10px;
+.row {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
-.sendbtn
-{
-	color:#fff;
-	background-color:#0d6efd;
-	border-color:#0d6efd;
+.sendbtn {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
 }
 
-
-input
-{
-    display: block;
-    width: 100%;
-    min-height: calc(1.5em + .75rem + 2px);
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+input {
+  display: block;
+  width: 100%;
+  min-height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-
-button
-{
-	color:#fff;
-	background-color:#28a745;
-	border-color:#28a745;
-	margin-bottom: 10px;	
-	padding: 10px;
-} 
-
-.myform
-{
-	padding: 10px;
+button {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
-.txt
-{
-	width: 100%;
+.myform {
+  padding: 10px;
 }
 
-#abouttxt
-{
-	font-size: 20px; /* Gör textstorlek till 20px */
-	margin: 10px; 
+.txt {
+  width: 100%;
 }
 
-#pricetable table, th, tr, td
-{
-	border: 1px solid #292b2c;
-	border-collapse: collapse; /* Gör att tabellgränserna ska kollapsa till en enda gräns i tabellen. */
+#abouttxt {
+  font-size: 20px; /* Gör textstorlek till 20px */
+  margin: 10px;
 }
 
-#pricetable td:hover
-{
-	background: #292b2c;
+#pricetable table,
+th,
+tr,
+td {
+  border: 1px solid #292b2c;
+  border-collapse: collapse; /* Gör att tabellgränserna ska kollapsa till en enda gräns i tabellen. */
 }
 
-#pricetable
-{
-	margin: 0 auto; /* Flytta pristabell till mitten */
-	margin-bottom: 10px;
-	width: 100%;
+#pricetable td:hover {
+  background: #292b2c;
 }
 
-.mytable
-{
-	display: flex;
-
+#pricetable {
+  margin: 0 auto; /* Flytta pristabell till mitten */
+  margin-bottom: 10px;
+  width: 100%;
 }
 
-#pricetable thead
-{
-	border: 1px solid #292b2c;
-	background: #292b2c;
-	color: white;
+.mytable {
+  display: flex;
 }
 
-*
-{
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+#pricetable thead {
+  border: 1px solid #292b2c;
+  background: #292b2c;
+  color: white;
 }
 
-img
-{
-	width: 100%;
-	max-width: 100%;
-	height: auto;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.logobild
-{
-	width: 100%;
-	height: 100%;
-	margin: 0 auto;
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
+.logobild {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
 
 /* Stylemall för mobiler */
-@media only screen and (max-width: 1400px)
-{
-	.mylogo
-	{
-		flex-direction: column;
-	}
+@media screen and (max-width: 1500px) {
+  .mylogo {
+    flex-direction: column;
+  }
 
-	#mainnav
-	{
-		flex-direction: column;
-	}
+  #mainnav {
+    flex-direction: column;
+  }
 
-	body
-	{
-		padding: 0;
-		margin: 0;
-		width: 100%;
-		font-size: 100%;
-	}
+  body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 100%;
+  }
 
-	h1, img
-	{
-		width: 100%;
-	}
+  h1,
+  img {
+    width: 100%;
+  }
 
-	#container
-	{
-		font-family: "Times New Roman", Times, serif; /* Typsnittlista på vilka typsnitt webbläsare ska använda */
-	}
+  #container {
+    font-family: "Times New Roman", Times, serif; /* Typsnittlista på vilka typsnitt webbläsare ska använda */
+  }
 
-	#srch
-	{
-		width: 180%; /* Gör bredden av sökfältet till 180% */
-		border-radius: 0px; /* Ta bort sökfältets runda hörn */	
-	}
+  #srch {
+    width: 180%; /* Gör bredden av sökfältet till 180% */
+    border-radius: 0px; /* Ta bort sökfältets runda hörn */
+  }
 
-	#srchbtn
-	{
-		border-radius: 0px; /* Ta bort sökknappens runda hörn */
-	}
+  #srchbtn {
+    border-radius: 0px; /* Ta bort sökknappens runda hörn */
+  }
 
-	.col-25
-	{
-		width: 100%;
-	}
+  .col-25 {
+    width: 100%;
+  }
 
-	.row
-	{
-		flex-direction: column;
-	}
-
-
+  .row {
+    flex-direction: column;
+  }
 }
