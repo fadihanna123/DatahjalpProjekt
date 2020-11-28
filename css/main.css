@@ -30,6 +30,7 @@ input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
   border-color: #0275d8;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px lightblue;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px lightblue;
   outline: 0 none;
 }
@@ -43,15 +44,23 @@ input[type="color"]:focus,
 }
 
 #mainnav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 10px;
   background: #f7f7f7;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
 }
 
 .mylogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin: 10px;
 }
@@ -98,8 +107,12 @@ textarea {
 }
 
 .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 10px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 10px;
 }
@@ -126,7 +139,14 @@ input {
   -moz-appearance: none;
   appearance: none;
   border-radius: 0.25rem;
+  -webkit-transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
 }
 
 button {
@@ -169,6 +189,8 @@ td {
 }
 
 .mytable {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -179,6 +201,7 @@ td {
 }
 
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -199,10 +222,16 @@ img {
 /* Stylemall för mobiler */
 @media screen and (max-width: 1500px) {
   .mylogo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 
   #mainnav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 
@@ -236,6 +265,9 @@ img {
   }
 
   .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 }
