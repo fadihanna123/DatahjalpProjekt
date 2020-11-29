@@ -1,107 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html lang="sv">
+  <head>
     <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/main.css" type="text/css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0"
+    />
     <title>Datahjälp Flexbox</title>
-</head>
+  </head>
 
-<body>
-    <div class="container">
-        <header>
-            <div class="mylogo">
-                <a href="index.html" title="Länk till logo">
-                    <img src="Images/logo.jpg" class="logobild" alt="Sidans logo" title="Datahjälp logo" />
-                </a>
-            </div>
-            <nav>
-                <ul id="mainnav">
-                    <a href="index.html" title="Home">Startsida</a>
-                    <a href="prices.html" title="Prices">Priser</a>
-                    <a href="competition.html" title="Competition">Tävling</a>
-                    <a href="contact.html" title="Contact">Kontakta oss</a>
-                    <a href="about.html" title="About">Om oss</a>
-                </ul>
-            </nav>
-            <hr class="line" />
-
-        </header>
-        <div class="main">
-            <!-- Skapa tävlingsinformation-->
-            <h1 class="myheading">Kontakta oss</h1>
-            <p>Har du frågor är du välkommen att kontakta oss när som helst.</p>
-            <p><strong>Observera att det är viktigt att ange din e-postadress om du vill ha svar.</strong></p>
-            <form method="post" class="myform">
-                <div class="row">
-                    <div class="col-25">
-                        <label for="nametxt">Ditt namn:*</label>
-                    </div>
-                    <div class="col-25">
-                        <input type="text" name="nametxt" id="nametxt" autofocus />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-25">
-                        <label for="mail">Din e-postadress:*</label>
-                    </div>
-                    <div class="col-25">
-                        <input id="mail" type="email" name="emailtxt" />
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-25">
-                        <label for="rang">Hur var ditt besök:*</label>
-                    </div>
-                    <div class="col-25">
-                        <select id="rang" name="rang">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>8</option>
-                            <option>9</option>
-                            <option>10</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-25">
-                        <label for="othertxt">Meddelande</label>
-                    </div>
-                    <div class="col-25">
-                        <textarea cols="50" id="othertxt" rows="4" name="othertxt"></textarea>
-                    </div>
-                </div>
-                <button type="submit" class="sendbtn">Skicka</button>
-            </form>
+  <body>
+    <div id="container">
+      <header>
+        <div class="mylogo">
+          <a href="index.html" title="Länk till logo">
+            <img
+              src="Images/logo.jpg"
+              class="logobild"
+              alt="Sidans logo"
+              title="Datahjälp logo"
+            />
+          </a>
         </div>
-
+        <nav>
+          <ul id="mainnav">
+            <a href="index.html" title="Home">Startsida</a>
+            <a href="prices.html" title="Prices">Priser</a>
+            <a href="competition.html" title="Competition">Tävling</a>
+            <a href="contact.html" title="Contact">Kontakta oss</a>
+            <a href="about.html" title="About">Om oss</a>
+          </ul>
+        </nav>
+        <hr class="line" />
+      </header>
+      <div class="main">
+        <!-- Skapa tävlingsinformation-->
+        <h1 class="myheading">Kontakta oss</h1>
+        <p>Har du frågor är du välkommen att kontakta oss när som helst.</p>
+        <p>
+          <strong
+            >Observera att det är viktigt att ange din e-postadress om du vill
+            ha svar.</strong
+          >
+        </p>
+        <form method="post" class="myform">
+          <div class="row">
+            <div class="col-25">
+              <label for="nametxt">Ditt namn:*</label>
+            </div>
+            <div class="col-25">
+              <input type="text" name="nametxt" id="nametxt" autofocus />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="mail">Din e-postadress:*</label>
+            </div>
+            <div class="col-25">
+              <input id="mail" type="email" name="emailtxt" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="rang">Hur var ditt besök:*</label>
+            </div>
+            <div class="col-25">
+              <select id="rang" name="rang">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="othertxt">Meddelande</label>
+            </div>
+            <div class="col-25">
+              <textarea
+                cols="50"
+                id="othertxt"
+                rows="4"
+                name="othertxt"
+              ></textarea>
+            </div>
+          </div>
+          <button type="submit" class="sendbtn">Skicka</button>
+        </form>
+      </div>
     </div>
     <hr class="line" />
     <footer>
-        <p class="lead">
-            Datahjälp AB
-        </p>
-        <p class="lead">Adress:
-            Ringvägen 5, Stockholm.
-            <br />
-            E-postadress:
-            datahjalpab@hotmail.com
-            <br />
-            Telefonnummer:
-            08-4751014
-            <br />
-            Mobilnummer:
-            073-5798048
-            <br />
-        </p>
+      <p class="lead">Datahjälp AB</p>
+      <p class="lead">
+        Adress: Ringvägen 5, Stockholm.
+        <br />
+        E-postadress: datahjalpab@hotmail.com
+        <br />
+        Telefonnummer: 08-4751014
+        <br />
+        Mobilnummer: 073-5798048
+        <br />
+      </p>
     </footer>
-    </div>
-</body>
-
+  </body>
 </html>

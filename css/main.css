@@ -1,4 +1,4 @@
-/* Stylemall för desktop */
+/* Stylemall för stora skärm */
 #container {
   font-family: "Times New Roman", Times, serif; /* Typsnittlista på vilka typsnitt webbläsare ska använda */
   margin: 10px;
@@ -144,7 +144,13 @@ input {
   transition: border-color 0.15s ease-in-out,
     -webkit-box-shadow 0.15s ease-in-out;
   -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
     -webkit-box-shadow 0.15s ease-in-out;
 }
@@ -220,7 +226,7 @@ img {
 }
 
 /* Stylemall för mobiler */
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1900px) {
   .mylogo {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
