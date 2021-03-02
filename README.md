@@ -14,7 +14,7 @@ Du kan ladda ner alla dessa filer och installera källkodsfiler i din lokala ser
 ## 1.3 Mappstruktur
 
 Images/<br>
-Images/Favicon <br />
+Images/Favicon/ <br />
 Images/Favicon/android-chrome-192x192.png <br />
 Images/Favicon/android-chrome-384x384.png <br />
 Images/Favicon/apple-touch-icon.png <br />
