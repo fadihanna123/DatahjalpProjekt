@@ -24,7 +24,6 @@ Images/Favicon/favicon-32x32.png <br />
 Images/Favicon/favicon.ico <br />
 Images/Favicon/mstile-150x150.png <br />
 Images/Favicon/site.webmanifest <br />
-
 Images/logo.png<br>
 Images/screenshot.png<br>
 css/<br>
