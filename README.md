@@ -4,11 +4,13 @@
 Datahjälp är ett företag som informerar kunderna om företagets priser och kontaktuppgifter till detta företag. Datahjälp hjälper kunder att laga sina datorer och företaget ligger i Ringvägen 5, Stockholm.
 <br>Hemsidan är responsivt.
 
-## 1.2 Installation
+## 1.1 Installation
 
 Du kan ladda ner alla dessa filer och installera källkodsfiler i din lokala server eller egen hemsida.
 
+## 1.2 Demo
 <a href='https://fadihanna123.github.io/DatahjalpProjekt/'>Demo</a>
+
 
 ## 1.3 Mappstruktur
 
