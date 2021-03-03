@@ -1,8 +1,5 @@
-## 1. Webbutveckling 1 projekt
 
-Detta är kort beskrivning om webbutveckling 1 projekt.
-
-## 1.1 Datahjälp
+## 1.0 Datahjälp
 
 Datahjälp är ett företag som informerar kunderna om företagets priser och kontaktuppgifter till detta företag. Datahjälp hjälper kunder att laga sina datorer och företaget ligger i Ringvägen 5, Stockholm.
 <br>Hemsidan är responsivt.
@@ -10,6 +7,8 @@ Datahjälp är ett företag som informerar kunderna om företagets priser och ko
 ## 1.2 Installation
 
 Du kan ladda ner alla dessa filer och installera källkodsfiler i din lokala server eller egen hemsida.
+
+<a href='https://fadihanna123.github.io/DatahjalpProjekt/'>Demo</a>
 
 ## 1.3 Mappstruktur
 
