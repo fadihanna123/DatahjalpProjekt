@@ -1,0 +1,73 @@
+// Variables
+$zero: 0;
+$hundred: 100%;
+$box: border-box;
+$none: none;
+$font: "Times New Roman", Times, serif;
+$ten: 10px;
+$sixpx: 6px;
+$onepx: 1px;
+$solidbrd: solid;
+$fivepx: 5px;
+$eightpx: 8px;
+$inset: inset;
+$lightblueclr: lightblue;
+$webbox: -webkit-box;
+$msflex: -ms-flex;
+$flex: flex;
+$cntr: center;
+$thirtypr: 30%;
+$twentypx: 20px;
+$threepx: 3px;
+$twentyfivepr: 25%;
+$block: block;
+$twopx: 2px;
+$onerem: 1rem;
+$fourhundred: 400;
+$paddingBox: padding-box;
+$easeinout: ease-in-out;
+$borderclr: border-color;
+$webboxshadow: -webkit-box-shadow;
+$webtransition: -webkit-transition;
+$collapse: collapse;
+$ninetyeightpr: 98%;
+$whiteclr: white;
+$auto: auto;
+$ninehundredpx: 900px;
+$fiftypr: 50%;
+$vertical: vertical;
+$normal: normal;
+$col: column;
+$onehundredeighttypr: 180%;
+
+// Selectors
+$selectorMap: (
+  global: "*",
+  txtArea: "textarea",
+  body: "body",
+  input: "input",
+  img: "img",
+  h1: "h1",
+  select: "select",
+  button: "button",
+  footer: "footer",
+  wrapper: "#container",
+  mainNav: "#mainnav",
+  srch: "#srch",
+  mySearchForm: ".mysearchform",
+  srchBtn: "#srchbtn",
+  line: ".line",
+  uneditableInput: ".uneditable-input",
+  myLogo: ".mylogo",
+  myHeading: ".myheading",
+  main: ".main",
+  row: ".row",
+  col25: ".col-25",
+  sendBtn: ".sendbtn",
+  myForm: ".myform",
+  txt: ".txt",
+  aboutTxt: ".abouttxt",
+  priceTable: "#pricetable",
+  myTable: ".mytable",
+  logoBild: ".logobild",
+);

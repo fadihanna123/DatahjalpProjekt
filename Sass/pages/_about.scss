@@ -1,0 +1,4 @@
+#{map-get($selectorMap, aboutTxt)} {
+  font-size: $twentypx; /* Gör textstorlek till 20px */
+  margin: $ten;
+}

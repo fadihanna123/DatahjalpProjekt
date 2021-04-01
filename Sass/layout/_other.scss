@@ -1,0 +1,42 @@
+#{map-get($selectorMap, wrapper)} {
+  font-family: $font; /* Typsnittlista på vilka typsnitt webbläsare ska använda */
+  margin: $ten;
+}
+
+#{map-get($selectorMap, col25)} {
+  width: $twentyfivepr;
+  margin-bottom: $ten;
+}
+
+#{map-get($selectorMap, row)} {
+  display: $webbox;
+  display: $msflex;
+  display: $flex;
+  margin: $ten;
+  -webkit-box-pack: $cntr;
+  -ms-flex-pack: $cntr;
+  justify-content: $cntr;
+  margin-bottom: $ten;
+}
+
+@media screen and (max-width: 1900px) {
+  #{map-get($selectorMap, h1)},
+  #{map-get($selectorMap, img)} {
+    width: $hundred;
+  }
+
+  #{map-get($selectorMap, wrapper)} {
+    font-family: $font; /* Typsnittlista på vilka typsnitt webbläsare ska använda */
+  }
+
+  #{map-get($selectorMap, col25)} {
+    width: $hundred;
+  }
+
+  #{map-get($selectorMap, row)} {
+    -webkit-box-orient: $vertical;
+    -webkit-box-direction: $normal;
+    -ms-flex-direction: $col;
+    flex-direction: $col;
+  }
+}

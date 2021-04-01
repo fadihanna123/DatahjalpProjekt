@@ -1,0 +1,109 @@
+#{map-get($selectorMap, txtArea)} :focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: #0275d8;
+  -webkit-box-shadow: $zero $onepx $onepx rgba($zero, $zero, $zero, 0.075)
+      $inset,
+    $zero $zero $eightpx $lightblueclr;
+  box-shadow: $zero $onepx $onepx rgba($zero, $zero, $zero, 0.075) $inset,
+    0 0 8px $lightblueclr;
+  outline: $zero $none;
+}
+
+#{map-get($selectorMap, mySearchForm)} {
+  padding: $ten;
+}
+
+#{map-get($selectorMap, main)} {
+  font-size: $twentypx; /* Gör textstorlek till 20px */
+  background-color: #5bc0de;
+  margin: $ten;
+  text-align: $cntr;
+}
+
+#{map-get($selectorMap, select)} {
+  border: $onepx $solidbrd #0275d8;
+  border-radius: $threepx;
+  padding: $ten;
+  margin-bottom: $ten;
+  width: $hundred;
+}
+
+#{map-get($selectorMap, txtArea)} {
+  border: $onepx $solidbrd #0275d8;
+  border-radius: $threepx;
+  padding: $ten;
+  margin-bottom: $ten;
+  width: $hundred;
+  margin-top: $ten;
+}
+
+#{map-get($selectorMap, sendBtn)} {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+#{map-get($selectorMap, input)} {
+  display: $block;
+  width: $hundred;
+  min-height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: $onerem;
+  font-weight: $fourhundred;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: $paddingBox;
+  border: $onepx $solidbrd #ced4da;
+  -webkit-appearance: $none;
+  -moz-appearance: $none;
+  appearance: $none;
+}
+
+#{map-get($selectorMap, button)} {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  margin-bottom: $ten;
+  padding: $ten;
+}
+
+#{map-get($selectorMap, myForm)} {
+  padding: $ten;
+}
+
+@media screen and (min-width: $ninehundredpx) and (max-width: 1900px) {
+  #{map-get($selectorMap, myForm)} {
+    margin: $zero $auto;
+  }
+
+  #{map-get($selectorMap, myForm)} {
+    #{map-get($selectorMap, row)} {
+      width: $fiftypr;
+      margin: $zero $auto;
+    }
+  }
+
+  #{map-get($selectorMap, srch)} {
+    width: $onehundredeighttypr; /* Gör bredden av sökfältet till 180% */
+    border-radius: $zero; /* Ta bort sökfältets runda hörn */
+  }
+
+  #{map-get($selectorMap, srchBtn)} {
+    border-radius: $zero; /* Ta bort sökknappens runda hörn */
+  }
+}

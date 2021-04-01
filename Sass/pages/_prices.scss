@@ -1,0 +1,23 @@
+#{map-get($selectorMap, priceTable)} {
+  margin: $zero $auto; /* Flytta pristabell till mitten */
+  margin-bottom: $ten;
+  width: $ninetyeightpr;
+  padding: $ten;
+  table,
+  th,
+  tr,
+  td {
+    border: $onepx $solidbrd #292b2c;
+    border-collapse: $collapse; /* Gör att tabellgränserna ska kollapsa till en enda gräns i tabellen. */
+  }
+
+  td:hover {
+    background: #292b2c;
+  }
+
+  thead {
+    border: 1px solid #292b2c;
+    background: #292b2c;
+    color: white;
+  }
+}

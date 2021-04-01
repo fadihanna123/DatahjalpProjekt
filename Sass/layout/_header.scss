@@ -1,0 +1,38 @@
+#{map-get($selectorMap, myLogo)} {
+  display: $webbox;
+  display: $msflex;
+  display: $flex;
+  -webkit-box-pack: $cntr;
+  -ms-flex-pack: $cntr;
+  justify-content: $cntr;
+  margin: $ten;
+}
+
+#{map-get($selectorMap, logoBild)} {
+  width: $hundred;
+  height: $hundred;
+  margin: $zero $auto;
+}
+
+@media screen and (min-width: $ninehundredpx) and (max-width: 1900px) {
+  #{map-get($selectorMap, myLogo)} {
+    margin: $zero $auto;
+    height: $thirtypr;
+    width: $thirtypr;
+  }
+}
+
+@media screen and (max-width: 1900px) {
+  #{map-get($selectorMap, logoBild)} {
+    width: $hundred;
+    height: $hundred;
+    margin: $zero $auto;
+  }
+
+  #{map-get($selectorMap, myLogo)} {
+    -webkit-box-orient: $vertical;
+    -webkit-box-direction: $normal;
+    -ms-flex-direction: $col;
+    flex-direction: $col;
+  }
+}
