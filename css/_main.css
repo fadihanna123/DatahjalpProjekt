@@ -17,8 +17,8 @@ input[type=tel]:focus,
 input[type=color]:focus,
 .uneditable-input:focus {
   border-color: #0275d8;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px lightblue;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px lightblue;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #add8e6;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #add8e6;
   outline: 0 none;
 }
 
@@ -143,14 +143,6 @@ img {
   height: auto;
 }
 
-@media screen and (max-width: 1900px) {
-  body {
-    margin: 0;
-    padding: 0;
-    font-size: 100%;
-    width: 100%;
-  }
-}
 footer {
   background-color: #1a0000;
   /* Gör sidfoten till vit */
@@ -300,5 +292,5 @@ img {
 #pricetable thead {
   border: 1px solid #292b2c;
   background: #292b2c;
-  color: white;
+  color: #fff;
 }

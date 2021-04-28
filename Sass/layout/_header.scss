@@ -5,28 +5,28 @@
   -webkit-box-pack: $cntr;
   -ms-flex-pack: $cntr;
   justify-content: $cntr;
-  margin: $ten;
+  margin: 10px;
 }
 
 #{map-get($selectorMap, logoBild)} {
-  width: $hundred;
-  height: $hundred;
-  margin: $zero $auto;
+  width: 100%;
+  height: 100%;
+  margin: 0 $auto;
 }
 
-@media screen and (min-width: $ninehundredpx) and (max-width: 1900px) {
+@media screen and (min-width: 900px) and (max-width: 1900px) {
   #{map-get($selectorMap, myLogo)} {
-    margin: $zero $auto;
-    height: $thirtypr;
-    width: $thirtypr;
+    margin: 0 $auto;
+    height: 30%;
+    width: 30%;
   }
 }
 
 @media screen and (max-width: 1900px) {
   #{map-get($selectorMap, logoBild)} {
-    width: $hundred;
-    height: $hundred;
-    margin: $zero $auto;
+    width: 100%;
+    height: 100%;
+    margin: 0 $auto;
   }
 
   #{map-get($selectorMap, myLogo)} {

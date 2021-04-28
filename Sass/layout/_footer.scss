@@ -1,7 +1,7 @@
 #{map-get($selectorMap, footer)} {
   background-color: #1a0000; /* Gör sidfoten till vit */
-  height: $thirtypr; /* Gör höjden av texten till 30% */
+  height: 30%; /* Gör höjden av texten till 30% */
   color: #f7f7f7;
-  margin: $ten;
+  margin: 10px;
   text-align: $cntr;
 }

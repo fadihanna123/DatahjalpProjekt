@@ -1,14 +1,15 @@
 #{map-get($selectorMap, priceTable)} {
-  margin: $zero $auto; /* Flytta pristabell till mitten */
-  margin-bottom: $ten;
-  width: $ninetyeightpr;
-  padding: $ten;
+  margin: 0 $auto; /* Flytta pristabell till mitten */
+  margin-bottom: 10px;
+  width: 98%;
+  padding: 10px;
+
   table,
   th,
   tr,
   td {
-    border: $onepx $solidbrd #292b2c;
-    border-collapse: $collapse; /* Gör att tabellgränserna ska kollapsa till en enda gräns i tabellen. */
+    border: 1px $solidbrd #292b2c;
+    border-collapse: collapse; /* Gör att tabellgränserna ska kollapsa till en enda gräns i tabellen. */
   }
 
   td:hover {
@@ -18,6 +19,6 @@
   thead {
     border: 1px solid #292b2c;
     background: #292b2c;
-    color: white;
+    color: color(white);
   }
 }

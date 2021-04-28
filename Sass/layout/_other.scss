@@ -1,28 +1,28 @@
 #{map-get($selectorMap, wrapper)} {
   font-family: $font; /* Typsnittlista på vilka typsnitt webbläsare ska använda */
-  margin: $ten;
+  margin: 10px;
 }
 
 #{map-get($selectorMap, col25)} {
-  width: $twentyfivepr;
-  margin-bottom: $ten;
+  width: 25%;
+  margin-bottom: 10px;
 }
 
 #{map-get($selectorMap, row)} {
   display: $webbox;
   display: $msflex;
   display: $flex;
-  margin: $ten;
+  margin: 10px;
   -webkit-box-pack: $cntr;
   -ms-flex-pack: $cntr;
   justify-content: $cntr;
-  margin-bottom: $ten;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 1900px) {
   #{map-get($selectorMap, h1)},
   #{map-get($selectorMap, img)} {
-    width: $hundred;
+    width: 100%;
   }
 
   #{map-get($selectorMap, wrapper)} {
@@ -30,7 +30,7 @@
   }
 
   #{map-get($selectorMap, col25)} {
-    width: $hundred;
+    width: 100%;
   }
 
   #{map-get($selectorMap, row)} {

@@ -1,44 +1,21 @@
 // Variables
-$zero: 0;
-$hundred: 100%;
 $box: border-box;
 $none: none;
 $font: "Times New Roman", Times, serif;
-$ten: 10px;
-$sixpx: 6px;
-$onepx: 1px;
 $solidbrd: solid;
-$fivepx: 5px;
-$eightpx: 8px;
-$inset: inset;
-$lightblueclr: lightblue;
+$insetbrd: inset;
+$colors: (
+  lightBlue: #add8e6,
+  white: #fff,
+);
 $webbox: -webkit-box;
 $msflex: -ms-flex;
 $flex: flex;
 $cntr: center;
-$thirtypr: 30%;
-$twentypx: 20px;
-$threepx: 3px;
-$twentyfivepr: 25%;
-$block: block;
-$twopx: 2px;
-$onerem: 1rem;
-$fourhundred: 400;
-$paddingBox: padding-box;
-$easeinout: ease-in-out;
-$borderclr: border-color;
-$webboxshadow: -webkit-box-shadow;
-$webtransition: -webkit-transition;
-$collapse: collapse;
-$ninetyeightpr: 98%;
-$whiteclr: white;
 $auto: auto;
-$ninehundredpx: 900px;
-$fiftypr: 50%;
 $vertical: vertical;
 $normal: normal;
 $col: column;
-$onehundredeighttypr: 180%;
 
 // Selectors
 $selectorMap: (
@@ -71,3 +48,8 @@ $selectorMap: (
   myTable: ".mytable",
   logoBild: ".logobild",
 );
+
+// Functions
+@function color($val) {
+  @return map-get($colors, $val);
+}

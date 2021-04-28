@@ -2,20 +2,20 @@
   display: $webbox;
   display: $msflex;
   display: $flex;
-  margin: $ten;
+  margin: 10px;
   background: #f7f7f7;
   -webkit-box-pack: $cntr;
   -ms-flex-pack: $cntr;
   justify-content: $cntr;
   text-align: $cntr;
   a {
-    border-radius: $ten; /* Skapa runda hörn runt länkarna */
-    padding: $sixpx; /* Lägg avstånd mellan länkarna 6px */
+    border-radius: 10px; /* Skapa runda hörn runt länkarna */
+    padding: 6px; /* Lägg avstånd mellan länkarna 6px */
     background: #292b2c;
-    border: $onepx $solidbrd #292b2c;
+    border: 1px $solidbrd #292b2c;
     color: #f7f7f7;
     text-decoration: $none;
-    margin: $fivepx;
+    margin: 5px;
   }
 }
 
