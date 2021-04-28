@@ -4,10 +4,6 @@ $none: none;
 $font: "Times New Roman", Times, serif;
 $solidbrd: solid;
 $insetbrd: inset;
-$colors: (
-  lightBlue: #add8e6,
-  white: #fff,
-);
 $webbox: -webkit-box;
 $msflex: -ms-flex;
 $flex: flex;
@@ -47,6 +43,11 @@ $selectorMap: (
   priceTable: "#pricetable",
   myTable: ".mytable",
   logoBild: ".logobild",
+);
+
+$colors: (
+  lightBlue: #add8e6,
+  white: #fff,
 );
 
 // Functions
