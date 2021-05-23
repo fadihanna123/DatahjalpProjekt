@@ -13,7 +13,7 @@ Du kan ladda ner alla dessa filer och installera källkodsfiler i din lokala ser
 
 ## 1.3 Mappstruktur
 
-Images/<br>
+Images/<br />
 Images/Favicon/ <br />
 Images/Favicon/android-chrome-192x192.png <br />
 Images/Favicon/android-chrome-384x384.png <br />
@@ -24,41 +24,41 @@ Images/Favicon/favicon-32x32.png <br />
 Images/Favicon/favicon.ico <br />
 Images/Favicon/mstile-150x150.png <br />
 Images/Favicon/site.webmanifest <br />
-Images/logo.png<br>
-Images/screenshot.png<br>
-Sass/
-Sass/abstracts/
-Sass/abstracts/all.scss
-Sass/abstracts/variables.scss
-Sass/components/
-Sass/components/all.scss
-Sass/components/forms.scss
-Sass/components/headings.scss
-Sass/components/lines.scss
-Sass/components/tables.scss
-Sass/components/texts.scss
-Sass/core/
-Sass/core/all.scss
-Sass/core/reset.scss
-Sass/layout/
-Sass/layout/all.scss
-Sass/layout/footer.scss
-Sass/layout/header.scss
-Sass/layout/navigation.scss
-Sass/layout/other.scss
-Sass/pages/
-Sass/pages/about.scss
-Sass/pages/all.scss
-Sass/pages/prices.scss
-Sass/main.scss
-css/<br>
-css/main.css<br>
-README.md<br>
-about.html<br>
-competition.html<br>
-contact.html<br>
-index.html<br>
-prices.html<br>
+Images/logo.png <br />
+Images/screenshot.png <br />
+Sass/ <br />
+Sass/abstracts/ <br />
+Sass/abstracts/all.scss <br />
+Sass/abstracts/variables.scss <br />
+Sass/components/ <br />
+Sass/components/all.scss <br />
+Sass/components/forms.scss <br />
+Sass/components/headings.scss <br />
+Sass/components/lines.scss <br />
+Sass/components/tables.scss <br />
+Sass/components/texts.scss <br />
+Sass/core/ <br />
+Sass/core/all.scss <br />
+Sass/core/reset.scss <br />
+Sass/layout/ <br />
+Sass/layout/all.scss <br />
+Sass/layout/footer.scss <br />
+Sass/layout/header.scss <br />
+Sass/layout/navigation.scss <br />
+Sass/layout/other.scss <br />
+Sass/pages/ <br />
+Sass/pages/about.scss <br />
+Sass/pages/all.scss <br />
+Sass/pages/prices.scss <br />
+Sass/main.scss <br />
+css/ <br />
+css/main.css <br />
+README.md <br />
+about.html <br />
+competition.html <br />
+contact.html <br />
+index.html <br />
+prices.html <br />
 .gitignore
 
 ## 1.4 Programmeringsspråk som används i projektet:
