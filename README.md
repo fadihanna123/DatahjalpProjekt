@@ -53,6 +53,7 @@ Sass/pages/prices.scss <br />
 Sass/main.scss <br />
 css/ <br />
 css/main.css <br />
+css/main.min.css <br />
 README.md <br />
 about.html <br />
 competition.html <br />
