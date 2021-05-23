@@ -1,4 +1,3 @@
-
 ## 1.0 Datahjälp
 
 Datahjälp är ett företag som informerar kunderna om företagets priser och kontaktuppgifter till detta företag. Datahjälp hjälper kunder att laga sina datorer och företaget ligger i Ringvägen 5, Stockholm.
@@ -9,8 +8,8 @@ Datahjälp är ett företag som informerar kunderna om företagets priser och ko
 Du kan ladda ner alla dessa filer och installera källkodsfiler i din lokala server eller egen hemsida.
 
 ## 1.2 Demo
-<a href='https://fadihanna123.github.io/DatahjalpProjekt/'>Demo</a>
 
+<a href='https://fadihanna123.github.io/DatahjalpProjekt/'>Demo</a>
 
 ## 1.3 Mappstruktur
 
@@ -27,6 +26,31 @@ Images/Favicon/mstile-150x150.png <br />
 Images/Favicon/site.webmanifest <br />
 Images/logo.png<br>
 Images/screenshot.png<br>
+Sass/
+Sass/abstracts/
+Sass/abstracts/all.scss
+Sass/abstracts/variables.scss
+Sass/components/
+Sass/components/all.scss
+Sass/components/forms.scss
+Sass/components/headings.scss
+Sass/components/lines.scss
+Sass/components/tables.scss
+Sass/components/texts.scss
+Sass/core/
+Sass/core/all.scss
+Sass/core/reset.scss
+Sass/layout/
+Sass/layout/all.scss
+Sass/layout/footer.scss
+Sass/layout/header.scss
+Sass/layout/navigation.scss
+Sass/layout/other.scss
+Sass/pages/
+Sass/pages/about.scss
+Sass/pages/all.scss
+Sass/pages/prices.scss
+Sass/main.scss
 css/<br>
 css/main.css<br>
 README.md<br>
@@ -35,10 +59,11 @@ competition.html<br>
 contact.html<br>
 index.html<br>
 prices.html<br>
+.gitignore
 
 ## 1.4 Programmeringsspråk som används i projektet:
 
-HTML och CSS.
+HTML, Sass och CSS.
 
 ## 1.5 Skärmdump av Datahjälp AB hemsidan
 

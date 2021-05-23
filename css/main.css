@@ -20,10 +20,12 @@ input[type=color]:focus,
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #add8e6;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #add8e6;
   outline: 0 none;
+  transition: 0.3s;
 }
 
 .mysearchform {
   padding: 10px;
+  transition: 0.3s;
 }
 
 .main {
@@ -32,6 +34,7 @@ input[type=color]:focus,
   background-color: #5bc0de;
   margin: 10px;
   text-align: center;
+  transition: 0.3s;
 }
 
 select {
@@ -40,6 +43,7 @@ select {
   padding: 10px;
   margin-bottom: 10px;
   width: 100%;
+  transition: 0.3s;
 }
 
 textarea {
@@ -49,12 +53,14 @@ textarea {
   margin-bottom: 10px;
   width: 100%;
   margin-top: 10px;
+  transition: 0.3s;
 }
 
 .sendbtn {
   color: #fff;
   background-color: #0d6efd;
   border-color: #0d6efd;
+  transition: 0.3s;
 }
 
 input {
@@ -72,6 +78,7 @@ input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  transition: 0.3s;
 }
 
 button {
@@ -80,10 +87,12 @@ button {
   border-color: #28a745;
   margin-bottom: 10px;
   padding: 10px;
+  transition: 0.3s;
 }
 
 .myform {
   padding: 10px;
+  transition: 0.3s;
 }
 
 @media screen and (min-width: 900px) and (max-width: 1900px) {
@@ -110,20 +119,24 @@ button {
 }
 .myheading {
   color: #d9534f;
+  transition: 0.3s;
 }
 
 .line {
   margin: 10px;
+  transition: 0.3s;
 }
 
 .mytable {
   display: -webkit-box;
   display: -ms-flex;
   display: flex;
+  transition: 0.3s;
 }
 
 .txt {
   width: 100%;
+  transition: 0.3s;
 }
 
 * {
@@ -135,12 +148,14 @@ button {
   border: 0;
   outline: 0;
   list-style: none;
+  transition: 0.3s;
 }
 
 img {
   width: 100%;
   max-width: 100%;
   height: auto;
+  transition: 0.3s;
 }
 
 footer {
@@ -152,6 +167,7 @@ footer {
   margin: 10px;
   text-align: center;
   padding: 10px;
+  transition: 0.3s;
 }
 
 .mylogo {
@@ -162,6 +178,7 @@ footer {
   -ms-flex-pack: center;
   justify-content: center;
   margin: 10px;
+  transition: 0.3s;
 }
 
 .logobild {
@@ -171,6 +188,7 @@ footer {
   width: auto;
   height: auto;
   margin: 0 auto;
+  transition: 0.3s;
 }
 
 @media screen and (min-width: 900px) and (max-width: 1900px) {
@@ -204,6 +222,7 @@ footer {
   -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
+  transition: 0.3s;
 }
 #mainnav a {
   border-radius: 10px;
@@ -215,6 +234,7 @@ footer {
   color: #f7f7f7;
   text-decoration: none;
   margin: 5px;
+  transition: 0.3s;
 }
 
 @media screen and (max-width: 1900px) {
@@ -229,11 +249,13 @@ footer {
   font-family: "Times New Roman", Times, serif;
   /* Typsnittlista på vilka typsnitt webbläsare ska använda */
   margin: 10px;
+  transition: 0.3s;
 }
 
 .col-25 {
   width: 25%;
   margin-bottom: 10px;
+  transition: 0.3s;
 }
 
 .row {
@@ -245,6 +267,7 @@ footer {
   -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 10px;
+  transition: 0.3s;
 }
 
 @media screen and (max-width: 1900px) {
@@ -273,6 +296,7 @@ img {
   font-size: 20px;
   /* Gör textstorlek till 20px */
   margin: 10px;
+  transition: 0.3s;
 }
 
 #pricetable {
@@ -281,6 +305,7 @@ img {
   margin-bottom: 10px;
   width: 98%;
   padding: 10px;
+  transition: 0.3s;
 }
 #pricetable table,
 #pricetable th,
@@ -289,12 +314,15 @@ img {
   border: 1px solid #292b2c;
   border-collapse: collapse;
   /* Gör att tabellgränserna ska kollapsa till en enda gräns i tabellen. */
+  transition: 0.3s;
 }
 #pricetable td:hover {
   background: #292b2c;
+  transition: 0.3s;
 }
 #pricetable thead {
   border: 1px solid #292b2c;
   background: #292b2c;
   color: #fff;
+  transition: 0.3s;
 }

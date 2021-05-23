@@ -19,10 +19,12 @@ input[type="color"]:focus,
     0 0 8px color(lightBlue);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) $insetbrd, 0 0 8px color(lightBlue);
   outline: 0 $none;
+  transition: 0.3s;
 }
 
 #{map-get($selectorMap, mySearchForm)} {
   padding: 10px;
+  transition: 0.3s;
 }
 
 #{map-get($selectorMap, main)} {
@@ -30,6 +32,7 @@ input[type="color"]:focus,
   background-color: #5bc0de;
   margin: 10px;
   text-align: $cntr;
+  transition: 0.3s;
 }
 
 #{map-get($selectorMap, select)} {
@@ -38,6 +41,7 @@ input[type="color"]:focus,
   padding: 10px;
   margin-bottom: 10px;
   width: 100%;
+  transition: 0.3s;
 }
 
 #{map-get($selectorMap, txtArea)} {
@@ -47,12 +51,14 @@ input[type="color"]:focus,
   margin-bottom: 10px;
   width: 100%;
   margin-top: 10px;
+  transition: 0.3s;
 }
 
 #{map-get($selectorMap, sendBtn)} {
   color: #fff;
   background-color: #0d6efd;
   border-color: #0d6efd;
+  transition: 0.3s;
 }
 
 #{map-get($selectorMap, input)} {
@@ -70,6 +76,7 @@ input[type="color"]:focus,
   -webkit-appearance: $none;
   -moz-appearance: $none;
   appearance: $none;
+  transition: 0.3s;
 }
 
 #{map-get($selectorMap, button)} {
@@ -78,10 +85,12 @@ input[type="color"]:focus,
   border-color: #28a745;
   margin-bottom: 10px;
   padding: 10px;
+  transition: 0.3s;
 }
 
 #{map-get($selectorMap, myForm)} {
   padding: 10px;
+  transition: 0.3s;
 }
 
 @media screen and (min-width: 900px) and (max-width: 1900px) {

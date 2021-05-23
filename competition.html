@@ -54,74 +54,84 @@
         </nav>
         <hr class="line" />
       </header>
-      <div class="main">
-        <!-- Skapa tävlingsinformation-->
-        <h1 class="myheading">Tävling</h1>
-        <p>
-          Varje år anordnar vi en tävling som resulterar på en vinnare som får
-          ett gratis helt år datahjälp av oss + en en HTC express mobil. Nu är
-          det dags för dig att vinna. Berätta om hur var ditt besök egentligen.
-        </p>
-        <br />
-        <p>* fälten är obligatoriska</p>
+      <main class="main">
+        <section>
+          <!-- Skapa tävlingsinformation-->
+          <h1 class="myheading">Tävling</h1>
+          <p>
+            Varje år anordnar vi en tävling som resulterar på en vinnare som får
+            ett gratis helt år datahjälp av oss + en en HTC express mobil. Nu är
+            det dags för dig att vinna. Berätta om hur var ditt besök
+            egentligen.
+          </p>
+          <br />
+          <p>* fälten är obligatoriska</p>
+        </section>
         <!-- Skapa en tabell med ett tävlingsformulär-->
-        <form method="post" class="myform">
-          <div class="row">
-            <div class="col-25">
-              <label for="firsttxt">Ditt namn:*</label>
+        <section>
+          <form method="post" class="myform">
+            <div class="row">
+              <div class="col-25">
+                <label for="firsttxt">Ditt namn:*</label>
+              </div>
+              <div class="col-25">
+                <input type="text" name="nametxt" id="firsttxt" autofocus />
+              </div>
             </div>
-            <div class="col-25">
-              <input type="text" name="nametxt" id="firsttxt" autofocus />
+            <div class="row">
+              <div class="col-25">
+                <label for="mailtxt">Din e-postadress:*</label>
+              </div>
+              <div class="col-25">
+                <input id="mailtxt" type="email" name="emailtxt" />
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-25">
-              <label for="mailtxt">Din e-postadress:*</label>
+            <div class="row">
+              <div class="col-25">
+                <label for="chooserang">Hur var ditt besök:*</label>
+              </div>
+              <div class="col-25">
+                <select id="chooserang" name="rank">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>
+                </select>
+              </div>
             </div>
-            <div class="col-25">
-              <input id="mailtxt" type="email" name="emailtxt" />
+            <div class="row">
+              <div class="col-25">
+                <label for="whytxt"
+                  >Varför vill du delta i den här tävlingen:*</label
+                >
+              </div>
+              <div class="col-25">
+                <textarea
+                  cols="50"
+                  id="whytxt"
+                  rows="4"
+                  name="whytxt"
+                ></textarea>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-25">
-              <label for="chooserang">Hur var ditt besök:*</label>
+            <div class="row">
+              <div class="col-25">
+                <label for="other">Övriga frågor/kommentarer:</label>
+              </div>
+              <div class="col-25">
+                <textarea id="other" cols="50" rows="5" name="other"></textarea>
+              </div>
             </div>
-            <div class="col-25">
-              <select id="chooserang" name="rank">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-                <option>6</option>
-                <option>7</option>
-                <option>8</option>
-                <option>9</option>
-                <option>10</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-25">
-              <label for="whytxt"
-                >Varför vill du delta i den här tävlingen:*</label
-              >
-            </div>
-            <div class="col-25">
-              <textarea cols="50" id="whytxt" rows="4" name="whytxt"></textarea>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-25">
-              <label for="other">Övriga frågor/kommentarer:</label>
-            </div>
-            <div class="col-25">
-              <textarea id="other" cols="50" rows="5" name="other"></textarea>
-            </div>
-          </div>
-          <button type="submit">Skicka</button>
-        </form>
-      </div>
+            <button type="submit">Skicka</button>
+          </form>
+        </section>
+      </main>
     </div>
     <hr class="line" />
     <footer>

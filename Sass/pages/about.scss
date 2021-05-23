@@ -1,4 +1,5 @@
 #{map-get($selectorMap, aboutTxt)} {
   font-size: 20px; /* Gör textstorlek till 20px */
   margin: 10px;
+  transition: 0.3s;
 }

@@ -3,22 +3,26 @@
   margin-bottom: 10px;
   width: 98%;
   padding: 10px;
+  transition: 0.3s;
 
-  table,
-  th,
-  tr,
-  td {
+  #{map-get($selectorMap, table)},
+  #{map-get($selectorMap, th)},
+  #{map-get($selectorMap, tr)},
+  #{map-get($selectorMap, td)} {
     border: 1px $solidbrd #292b2c;
     border-collapse: collapse; /* Gör att tabellgränserna ska kollapsa till en enda gräns i tabellen. */
+    transition: 0.3s;
   }
 
-  td:hover {
+  #{map-get($selectorMap, td)}:hover {
     background: #292b2c;
+    transition: 0.3s;
   }
 
-  thead {
+  #{map-get($selectorMap, thead)} {
     border: 1px solid #292b2c;
     background: #292b2c;
     color: color(white);
+    transition: 0.3s;
   }
 }

@@ -6,6 +6,7 @@
   -ms-flex-pack: $cntr;
   justify-content: $cntr;
   margin: 10px;
+  transition: 0.3s;
 }
 
 #{map-get($selectorMap, logoBild)} {
@@ -15,6 +16,7 @@
   width: auto;
   height: auto;
   margin: 0 $auto;
+  transition: 0.3s;
 }
 
 @media screen and (min-width: 900px) and (max-width: 1900px) {
