@@ -1,4 +1,4 @@
-#{map-get($selectorMap, myTable)} {
+#{selector(myTable)} {
   display: $webbox;
   display: $msflex;
   display: $flex;

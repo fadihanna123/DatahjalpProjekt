@@ -1,4 +1,4 @@
-#{map-get($selectorMap, global)} {
+#{selector(global)} {
   margin: 0;
   padding: 0;
   font-size: 100%;
@@ -10,7 +10,7 @@
   transition: 0.3s;
 }
 
-#{map-get($selectorMap, img)} {
+#{selector(img)} {
   width: 100%;
   max-width: 100%;
   height: $auto;

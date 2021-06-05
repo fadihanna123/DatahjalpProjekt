@@ -1,4 +1,4 @@
-#{map-get($selectorMap, txtArea)} :focus,
+#{selector(txtArea)} :focus,
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="datetime"]:focus,
@@ -22,12 +22,12 @@ input[type="color"]:focus,
   transition: 0.3s;
 }
 
-#{map-get($selectorMap, mySearchForm)} {
+#{selector(mySearchForm)} {
   padding: 10px;
   transition: 0.3s;
 }
 
-#{map-get($selectorMap, main)} {
+#{selector(main)} {
   font-size: 20px; /* Gör textstorlek till 20px */
   background-color: #5bc0de;
   margin: 10px;
@@ -35,7 +35,7 @@ input[type="color"]:focus,
   transition: 0.3s;
 }
 
-#{map-get($selectorMap, select)} {
+#{selector(select)} {
   border: 1px $solidbrd #0275d8;
   border-radius: 3px;
   padding: 10px;
@@ -44,7 +44,7 @@ input[type="color"]:focus,
   transition: 0.3s;
 }
 
-#{map-get($selectorMap, txtArea)} {
+#{selector(txtArea)} {
   border: 1px $solidbrd #0275d8;
   border-radius: 3px;
   padding: 10px;
@@ -54,14 +54,14 @@ input[type="color"]:focus,
   transition: 0.3s;
 }
 
-#{map-get($selectorMap, sendBtn)} {
+#{selector(sendBtn)} {
   color: #fff;
   background-color: #0d6efd;
   border-color: #0d6efd;
   transition: 0.3s;
 }
 
-#{map-get($selectorMap, input)} {
+#{selector(input)} {
   display: block;
   width: 100%;
   min-height: calc(1.5em + 0.75rem + 2px);
@@ -79,7 +79,7 @@ input[type="color"]:focus,
   transition: 0.3s;
 }
 
-#{map-get($selectorMap, button)} {
+#{selector(button)} {
   color: color(white);
   background-color: #28a745;
   border-color: #28a745;
@@ -88,29 +88,29 @@ input[type="color"]:focus,
   transition: 0.3s;
 }
 
-#{map-get($selectorMap, myForm)} {
+#{selector(myForm)} {
   padding: 10px;
   transition: 0.3s;
 }
 
 @media screen and (min-width: 900px) and (max-width: 1900px) {
-  #{map-get($selectorMap, myForm)} {
+  #{selector(myForm)} {
     margin: 0 $auto;
   }
 
-  #{map-get($selectorMap, myForm)} {
-    #{map-get($selectorMap, row)} {
+  #{selector(myForm)} {
+    #{selector(row)} {
       width: 50%;
       margin: 0 $auto;
     }
   }
 
-  #{map-get($selectorMap, srch)} {
+  #{selector(srch)} {
     width: 180%; /* Gör bredden av sökfältet till 180% */
     border-radius: 0; /* Ta bort sökfältets runda hörn */
   }
 
-  #{map-get($selectorMap, srchBtn)} {
+  #{selector(srchBtn)} {
     border-radius: 0; /* Ta bort sökknappens runda hörn */
   }
 }

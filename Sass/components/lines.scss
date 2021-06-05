@@ -1,4 +1,4 @@
-#{map-get($selectorMap, line)} {
+#{selector(line)} {
   margin: 10px;
   transition: 0.3s;
 }

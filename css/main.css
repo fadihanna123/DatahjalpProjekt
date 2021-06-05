@@ -1,5 +1,12 @@
 @charset "UTF-8";
 /* Styles created by Fadi Hanna */
+#container {
+  font-family: "Times New Roman", Times, serif;
+  /* Typsnittlista på vilka typsnitt webbläsare ska använda */
+  margin: 10px;
+  transition: 0.3s;
+}
+
 textarea :focus,
 input[type=text]:focus,
 input[type=password]:focus,
@@ -245,13 +252,6 @@ footer {
     flex-direction: column;
   }
 }
-#container {
-  font-family: "Times New Roman", Times, serif;
-  /* Typsnittlista på vilka typsnitt webbläsare ska använda */
-  margin: 10px;
-  transition: 0.3s;
-}
-
 .col-25 {
   width: 25%;
   margin-bottom: 10px;

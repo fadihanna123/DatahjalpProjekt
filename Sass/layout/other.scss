@@ -1,16 +1,10 @@
-#{map-get($selectorMap, wrapper)} {
-  font-family: $font; /* Typsnittlista på vilka typsnitt webbläsare ska använda */
-  margin: 10px;
-  transition: 0.3s;
-}
-
-#{map-get($selectorMap, col25)} {
+#{selector(col25)} {
   width: 25%;
   margin-bottom: 10px;
   transition: 0.3s;
 }
 
-#{map-get($selectorMap, row)} {
+#{selector(row)} {
   display: $webbox;
   display: $msflex;
   display: $flex;
@@ -23,20 +17,20 @@
 }
 
 @media screen and (max-width: 1900px) {
-  #{map-get($selectorMap, h1)},
-  #{map-get($selectorMap, img)} {
+  #{selector(h1)},
+  #{selector(img)} {
     width: 100%;
   }
 
-  #{map-get($selectorMap, wrapper)} {
+  #{selector(wrapper)} {
     font-family: $font; /* Typsnittlista på vilka typsnitt webbläsare ska använda */
   }
 
-  #{map-get($selectorMap, col25)} {
+  #{selector(col25)} {
     width: 100%;
   }
 
-  #{map-get($selectorMap, row)} {
+  #{selector(row)} {
     -webkit-box-orient: $vertical;
     -webkit-box-direction: $normal;
     -ms-flex-direction: $col;
