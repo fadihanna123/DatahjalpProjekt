@@ -1,0 +1,18 @@
+#{selector(global)} {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  -webkit-box-sizing: $box;
+  box-sizing: $box;
+  border: 0;
+  outline: 0;
+  list-style: $none;
+  transition: 0.3s;
+}
+
+#{selector(img)} {
+  width: 100%;
+  max-width: 100%;
+  height: $auto;
+  transition: 0.3s;
+}
