@@ -197,8 +197,6 @@ footer {
   display: block;
   max-width: 100%;
   max-height: 100%;
-  width: auto;
-  height: auto;
   margin: 0 auto;
   transition: 0.3s;
 }
