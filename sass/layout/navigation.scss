@@ -23,7 +23,7 @@
 }
 
 @media screen and (max-width: 1900px) {
-  #{selector(mainNav)} {
+  #{selector(mainNav)} #{selector(listItem)} {
     -webkit-box-orient: $vertical;
     -webkit-box-direction: $normal;
     -ms-flex-direction: $col;

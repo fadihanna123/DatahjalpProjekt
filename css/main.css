@@ -250,7 +250,7 @@ footer {
 }
 
 @media screen and (max-width: 1900px) {
-  #mainnav {
+  #mainnav li {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;

@@ -2,6 +2,12 @@
 <html lang="sv">
   <head>
     <meta charset="UTF-8" />
+    <meta name="author" content="Fadi Hanna" />
+    <meta name="keywords" content="Datahjalp, projekt, hjälp" />
+    <meta
+      name="description"
+      content="Datahjalp projekt hjälper dig att laga dina datorer."
+    />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -45,11 +51,11 @@
         </div>
         <nav>
           <ul id="mainnav">
-            <a href="index.html" title="Home">Startsida</a>
-            <a href="prices.html" title="Prices">Priser</a>
-            <a href="competition.html" title="Competition">Tävling</a>
-            <a href="contact.html" title="Contact">Kontakta oss</a>
-            <a href="about.html" title="About">Om oss</a>
+            <li><a href="index.html" title="Home">Startsida</a></li>
+            <li><a href="prices.html" title="Prices">Priser</a></li>
+            <li><a href="competition.html" title="Competition">Tävling</a></li>
+            <li><a href="contact.html" title="Contact">Kontakta oss</a></li>
+            <li><a href="about.html" title="About">Om oss</a></li>
           </ul>
         </nav>
         <hr class="line" />
@@ -68,84 +74,82 @@
           <p>* fälten är obligatoriska</p>
         </section>
         <!-- Skapa en tabell med ett tävlingsformulär-->
-        <section>
-          <form method="post" class="myform">
-            <div class="row">
-              <div class="col-25">
-                <label for="firsttxt">Ditt namn:*</label>
-              </div>
-              <div class="col-25">
-                <input type="text" name="nametxt" id="firsttxt" autofocus />
-              </div>
+        <form method="post" class="myform">
+          <div class="row">
+            <div class="col-25">
+              <label for="firsttxt">Ditt namn:*</label>
             </div>
-            <div class="row">
-              <div class="col-25">
-                <label for="mailtxt">Din e-postadress:*</label>
-              </div>
-              <div class="col-25">
-                <input id="mailtxt" type="email" name="emailtxt" />
-              </div>
+            <div class="col-25">
+              <input type="text" name="nametxt" id="firsttxt" autofocus />
             </div>
-            <div class="row">
-              <div class="col-25">
-                <label for="chooserang">Hur var ditt besök:*</label>
-              </div>
-              <div class="col-25">
-                <select id="chooserang" name="rank">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                  <option>6</option>
-                  <option>7</option>
-                  <option>8</option>
-                  <option>9</option>
-                  <option>10</option>
-                </select>
-              </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="mailtxt">Din e-postadress:*</label>
             </div>
-            <div class="row">
-              <div class="col-25">
-                <label for="whytxt"
-                  >Varför vill du delta i den här tävlingen:*</label
-                >
-              </div>
-              <div class="col-25">
-                <textarea
-                  cols="50"
-                  id="whytxt"
-                  rows="4"
-                  name="whytxt"
-                ></textarea>
-              </div>
+            <div class="col-25">
+              <input id="mailtxt" type="email" name="emailtxt" />
             </div>
-            <div class="row">
-              <div class="col-25">
-                <label for="other">Övriga frågor/kommentarer:</label>
-              </div>
-              <div class="col-25">
-                <textarea id="other" cols="50" rows="5" name="other"></textarea>
-              </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="chooserang">Hur var ditt besök:*</label>
             </div>
-            <button type="submit">Skicka</button>
-          </form>
-        </section>
+            <div class="col-25">
+              <select id="chooserang" name="rank">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="whytxt"
+                >Varför vill du delta i den här tävlingen:*</label
+              >
+            </div>
+            <div class="col-25">
+              <textarea cols="50" id="whytxt" rows="4" name="whytxt"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="other">Övriga frågor/kommentarer:</label>
+            </div>
+            <div class="col-25">
+              <textarea id="other" cols="50" rows="5" name="other"></textarea>
+            </div>
+          </div>
+          <button type="submit">Skicka</button>
+        </form>
       </main>
     </div>
     <hr class="line" />
-      <footer>
-        <p class="lead">Datahjälp AB</p>
-        <p class="lead">
-          <address> Adress: Ringvägen 5, Stockholm. </address>
-          <br />
-          E-postadress: <a class="footerlink" href="mailto:datahjalpab@hotmail.com">datahjalpab@hotmail.com</a>
-          <br />
-          Telefonnummer: <a class="footerlink"  href="tel:084751014"> 08-4751014 </a>
-          <br />
-          Mobilnummer: <a class="footerlink"  href="tel:0735798048"> 073-5798048 </a>
-          <br />
-        </p>
-      </footer>
+    <footer>
+      <p class="lead">Datahjälp AB</p>
+      <address>Adress: Ringvägen 5, Stockholm.</address>
+      <br />
+      <p class="lead">
+        E-postadress:
+        <a class="footerlink" href="mailto:datahjalpab@hotmail.com"
+          >datahjalpab@hotmail.com</a
+        >
+        <br />
+        Telefonnummer:
+        <a class="footerlink" href="tel:084751014"> 08-4751014 </a>
+        <br />
+        Mobilnummer:
+        <a class="footerlink" href="tel:0735798048"> 073-5798048 </a>
+        <br />
+      </p>
+    </footer>
   </body>
 </html>
