@@ -68,4 +68,4 @@ HTML, Sass och CSS.
 
 ## 1.5 Skärmdump av Datahjälp AB hemsidan
 
-![alt text](https://github.com/fadihanna123/DatahjalpProjekt/blob/master/images/screenshot.png "Screenshot av hemsidan")
+![alt text](https://github.com/fadihanna123/DatahjalpProjekt/blob/master/Sk%C3%A4rmbild%202022-05-12%20232111.png "Screenshot av hemsidan")
