@@ -13,19 +13,19 @@ Du kan ladda ner alla dessa filer och installera källkodsfiler i din lokala ser
 
 ## 1.3 Mappstruktur
 
-images/<br />
-images/favicon/ <br />
-images/favicon/android-chrome-192x192.png <br />
-images/favicon/android-chrome-384x384.png <br />
-images/favicon/apple-touch-icon.png <br />
-images/favicon/browserconfig.xml <br />
-images/favicon/favicon-16x16.png <br />
-images/favicon/favicon-32x32.png <br />
-images/favicon/favicon.ico <br />
-images/favicon/mstile-150x150.png <br />
-images/favicon/site.webmanifest <br />
-images/logo.png <br />
-images/screenshot.png <br />
+assets/<br />
+assets/favicon/ <br />
+assets/favicon/android-chrome-192x192.png <br />
+assets/favicon/android-chrome-384x384.png <br />
+assets/favicon/apple-touch-icon.png <br />
+assets/favicon/browserconfig.xml <br />
+assets/favicon/favicon-16x16.png <br />
+assets/favicon/favicon-32x32.png <br />
+assets/favicon/favicon.ico <br />
+assets/favicon/mstile-150x150.png <br />
+assets/favicon/site.webmanifest <br />
+assets/logo.png <br />
+assets/screenshot.png <br />
 sass/ <br />
 sass/abstracts/ <br />
 sass/abstracts/all.scss <br />
