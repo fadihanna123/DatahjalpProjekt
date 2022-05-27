@@ -60,7 +60,8 @@ competition.html <br />
 contact.html <br />
 index.html <br />
 prices.html <br />
-.gitignore
+.gitignore <br />
+.htmlhintrc <br />
 
 ## 1.4 Programmeringsspråk som används i projektet:
 
