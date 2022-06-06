@@ -233,7 +233,7 @@ footer {
   -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
-  transition: 0.3s;
+  transition: 0.3s all;
 }
 #mainnav a {
   border-radius: 10px;
@@ -245,7 +245,8 @@ footer {
   color: #f7f7f7;
   text-decoration: none;
   margin: 5px;
-  transition: 0.3s;
+  white-space: nowrap;
+  transition: 0.3s all;
 }
 
 @media screen and (max-width: 1900px) {
