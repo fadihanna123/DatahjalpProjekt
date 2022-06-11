@@ -62,6 +62,7 @@ index.html <br />
 prices.html <br />
 .gitignore <br />
 .htmlhintrc <br />
+.editorConfig <br />
 
 ## 1.4 Programmeringsspråk som används i projektet:
 
