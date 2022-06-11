@@ -1,4 +1,9 @@
+#{selector(link)} {
+    color: color(linkColor);
+    text-decoration: $none;
+}
+
 #{selector(footerLink)} {
-  color: white;
-  text-decoration: none;
+    color: color(white);
+    text-decoration: $none;
 }
