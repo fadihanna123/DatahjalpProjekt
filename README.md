@@ -13,19 +13,21 @@ Du kan ladda ner alla dessa filer och installera källkodsfiler i din lokala ser
 
 ## 1.3 Mappstruktur
 
+.husky/ <br />
+.husky/pre-commit <br />
 assets/<br />
-assets/favicon/ <br />
-assets/favicon/android-chrome-192x192.png <br />
-assets/favicon/android-chrome-384x384.png <br />
-assets/favicon/apple-touch-icon.png <br />
-assets/favicon/browserconfig.xml <br />
-assets/favicon/favicon-16x16.png <br />
-assets/favicon/favicon-32x32.png <br />
-assets/favicon/favicon.ico <br />
-assets/favicon/mstile-150x150.png <br />
-assets/favicon/site.webmanifest <br />
-assets/logo.png <br />
-assets/screenshot.png <br />
+assets/icons/favicon/ <br />
+assets/icons/favicon/android-chrome-192x192.png <br />
+assets/icons/favicon/android-chrome-384x384.png <br />
+assets/icons/favicon/apple-touch-icon.png <br />
+assets/icons/favicon/browserconfig.xml <br />
+assets/icons/favicon/favicon-16x16.png <br />
+assets/icons/favicon/favicon-32x32.png <br />
+assets/icons/favicon/favicon.ico <br />
+assets/icons/favicon/mstile-150x150.png <br />
+assets/icons/favicon/site.webmanifest <br />
+assets/images/logo.png <br />
+assets/images/screenshot.png <br />
 sass/ <br />
 sass/abstracts/ <br />
 sass/abstracts/all.scss <br />
@@ -54,15 +56,21 @@ sass/main.scss <br />
 css/ <br />
 css/main.css <br />
 css/main.min.css <br />
+.editorconfig <br />
+.prettierc <br />
+AUTHORS <br />
 README.md <br />
 about.html <br />
 competition.html <br />
 contact.html <br />
 index.html <br />
 prices.html <br />
-.gitignore <br />
 .htmlhintrc <br />
-.editorConfig <br />
+.gitattributes <br />
+.gitignore <br />
+package.json <br />
+pnpm-lock.yaml <br />
+screenshot.png <br />
 
 ## 1.4 Programmeringsspråk som används i projektet:
 
@@ -70,4 +78,4 @@ HTML, Sass och CSS.
 
 ## 1.5 Skärmdump av Datahjälp AB hemsidan
 
-![alt text](https://github.com/fadihanna123/DatahjalpProjekt/blob/master/Sk%C3%A4rmbild%202022-05-12%20232111.png "Screenshot av hemsidan")
+![alt text](https://github.com/fadihanna123/DatahjalpProjekt/blob/master/screenshot.png 'Screenshot av hemsidan')
