@@ -1,5 +1,14 @@
 {
+  "name": "data_hjalp_projekt",
+  "license": "MIT",
+  "author": {
+    "name": "Fadi Hanna",
+    "email": "fhanna181@gmail.com"
+  },
   "devDependencies": {
     "husky": "^8.0.1"
+  },
+  "dependencies": {
+    "@manypkg/cli": "^0.19.1"
   }
 }
