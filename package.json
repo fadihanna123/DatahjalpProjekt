@@ -1,6 +1,8 @@
 {
   "name": "data_hjalp_projekt",
   "license": "MIT",
+  "version": "0.0.0",
+  "lastUpgrade": "20220801",
   "author": {
     "name": "Fadi Hanna",
     "email": "fhanna181@gmail.com"

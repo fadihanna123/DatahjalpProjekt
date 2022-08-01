@@ -6,8 +6,6 @@ specifiers:
 
 dependencies:
   '@manypkg/cli': 0.19.1
-
-devDependencies:
   husky: 8.0.1
 
 packages:
@@ -161,7 +159,7 @@ packages:
       }
     dependencies:
       '@types/minimatch': 3.0.5
-      '@types/node': 18.6.2
+      '@types/node': 18.6.3
     dev: false
 
   /@types/keyv/3.1.4:
@@ -170,7 +168,7 @@ packages:
         integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==,
       }
     dependencies:
-      '@types/node': 18.6.2
+      '@types/node': 18.6.3
     dev: false
 
   /@types/minimatch/3.0.5:
@@ -187,10 +185,10 @@ packages:
       }
     dev: false
 
-  /@types/node/18.6.2:
+  /@types/node/18.6.3:
     resolution:
       {
-        integrity: sha512-KcfkBq9H4PI6Vpu5B/KoPeuVDAbmi+2mDBqGPGUgoL7yXQtcWGu2vJWmmRkneWK3Rh0nIAX192Aa87AqKHYChQ==,
+        integrity: sha512-6qKpDtoaYLM+5+AFChLhHermMQxc3TOEFIDzrZLPRGHPrLEwqFkkT5Kx3ju05g6X7uDPazz3jHbKPX0KzCjntg==,
       }
     dev: false
 
@@ -200,7 +198,7 @@ packages:
         integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==,
       }
     dependencies:
-      '@types/node': 18.6.2
+      '@types/node': 18.6.3
     dev: false
 
   /@types/semver/6.2.3:
@@ -1041,7 +1039,7 @@ packages:
       }
     engines: { node: '>=14' }
     hasBin: true
-    dev: true
+    dev: false
 
   /ignore/4.0.6:
     resolution:
