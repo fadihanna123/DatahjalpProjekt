@@ -1,7 +1,12 @@
 {
   "name": "data_hjalp_projekt",
   "license": "MIT",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "bugs": "https://github.com/fadihanna123/DatahjalpProjekt/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fadihanna123/DatahjalpProjekt"
+  },
   "lastUpgrade": "20220801",
   "author": {
     "name": "Fadi Hanna",
