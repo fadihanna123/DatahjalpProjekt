@@ -71,6 +71,7 @@ prices.html <br />
 package.json <br />
 pnpm-lock.yaml <br />
 screenshot.png <br />
+.prettierignore <br />
 
 ## 1.4 Programmeringsspråk som används i projektet:
 
