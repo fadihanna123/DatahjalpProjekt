@@ -3,10 +3,12 @@ lockfileVersion: 5.4
 specifiers:
   '@manypkg/cli': ^0.19.1
   husky: ^8.0.1
+  prettier: ^2.7.1
 
 dependencies:
   '@manypkg/cli': 0.19.1
   husky: 8.0.1
+  prettier: 2.7.1
 
 packages:
   /@babel/runtime/7.18.9:
@@ -1701,6 +1703,15 @@ packages:
         integrity: sha512-ravE6m9Atw9Z/jjttRUZ+clIXogdghyZAuWJ3qEzjT+jI/dL1ifAqhZeC5VHzQp1MSt1+jxKkFNemj/iO7tVUA==,
       }
     engines: { node: '>=4' }
+    dev: false
+
+  /prettier/2.7.1:
+    resolution:
+      {
+        integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==,
+      }
+    engines: { node: '>=10.13.0' }
+    hasBin: true
     dev: false
 
   /pseudomap/1.0.2:
