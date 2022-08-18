@@ -4,6 +4,6 @@
 pnpm i
 pnpm manypkg check
 htmlhint
-eclint fix
 npx pretty-quick --staged
+eclint fix
 rimraf node_modules
