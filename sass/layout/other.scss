@@ -1,48 +1,48 @@
 #{selector(labelCol)} {
-    width: 500px;
-    margin-bottom: 15px;
-    transition: 0.3s all;
-    display: inline-block;
+  width: 500px;
+  margin-bottom: 15px;
+  transition: 0.3s all;
+  display: inline-block;
 }
 
 #{selector(formFieldCol)} {
-    width: 500px;
-    margin-bottom: 15px;
-    transition: 0.3s all;
-    display: inline-block;
+  width: 500px;
+  margin-bottom: 15px;
+  transition: 0.3s all;
+  display: inline-block;
 }
 
 #{selector(row)} {
-    display: $webbox;
-    display: $msflex;
-    display: $flex;
-    margin: 10px;
-    -webkit-box-pack: $cntr;
-    -ms-flex-pack: $cntr;
-    justify-content: $cntr;
-    margin-bottom: 10px;
-    transition: 0.3s all;
+  display: $webbox;
+  display: $msflex;
+  display: $flex;
+  margin: 10px;
+  -webkit-box-pack: $cntr;
+  -ms-flex-pack: $cntr;
+  justify-content: $cntr;
+  margin-bottom: 10px;
+  transition: 0.3s all;
 }
 
 @media screen and (max-width: 1200px) {
-    #{selector(h1)},
-    #{selector(img)} {
-        width: 100%;
-    }
+  #{selector(h1)},
+  #{selector(img)} {
+    width: 100%;
+  }
 
-    #{selector(wrapper)} {
-        font-family: $font; /* Typsnittlista på vilka typsnitt webbläsare ska använda */
-    }
+  #{selector(wrapper)} {
+    font-family: $font; /* Typsnittlista på vilka typsnitt webbläsare ska använda */
+  }
 
-    #{selector(labelCol)},
-    #{selector(formFieldCol)} {
-        width: 100%;
-    }
+  #{selector(labelCol)},
+  #{selector(formFieldCol)} {
+    width: 100%;
+  }
 
-    #{selector(row)} {
-        -webkit-box-orient: $vertical;
-        -webkit-box-direction: $normal;
-        -ms-flex-direction: $col;
-        flex-direction: $col;
-    }
+  #{selector(row)} {
+    -webkit-box-orient: $vertical;
+    -webkit-box-direction: $normal;
+    -ms-flex-direction: $col;
+    flex-direction: $col;
+  }
 }

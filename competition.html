@@ -1,200 +1,200 @@
 <!DOCTYPE html>
 <html lang="sv">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=7" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <meta http-equiv="cache-control" content="no-cache" />
-        <meta http-equiv="expires" content="0" />
-        <meta http-equiv="pragma" content="no-cache" />
-        <meta name="author" content="Fadi Hanna" />
-        <meta name="keywords" content="Datahjalp, projekt, hjälp" />
-        <meta
-            name="description"
-            content="Datahjalp projekt hjälper dig att laga dina datorer."
-        />
-        <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="assets/icons/favicon/apple-touch-icon.png"
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="assets/icons/favicon/favicon-32x32.png"
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="assets/icons/favicon/favicon-16x16.png"
-        />
-        <link rel="manifest" href="assets/icons/favicon/site.webmanifest" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="css/main.min.css" type="text/css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Datahjälp - Tävling</title>
-    </head>
-    <body>
-        <div id="container">
-            <header>
-                <div class="mylogo">
-                    <a href="index.html" title="Länk till logo">
-                        <img
-                            src="assets/images/logo.jpg"
-                            class="logobild"
-                            alt="Sidans logo"
-                            title="Datahjälp logo"
-                            width="600"
-                            height="600"
-                            aria-label="Sidans logo"
-                            loading="lazy"
-                        />
-                    </a>
-                </div>
-                <nav>
-                    <ul id="mainnav">
-                        <li><a href="index.html" title="Home">Startsida</a></li>
-                        <li><a href="prices.html" title="Prices">Priser</a></li>
-                        <li>
-                            <a href="competition.html" title="Competition"
-                                >Tävling</a
-                            >
-                        </li>
-                        <li>
-                            <a href="contact.html" title="Contact"
-                                >Kontakta oss</a
-                            >
-                        </li>
-                        <li><a href="about.html" title="About">Om oss</a></li>
-                    </ul>
-                </nav>
-                <hr class="line" />
-            </header>
-            <main class="main">
-                <section>
-                    <!-- Skapa tävlingsinformation-->
-                    <h1 class="myheading">Tävling</h1>
-                    <p>
-                        Varje år anordnar vi en tävling som resulterar på en
-                        vinnare som får
-                        <ul class="competitionPriceList">
-                            <li> Gratis år datahjälp </li>
-                            <li> HTC express mobil </li> 
-                        </ul>
-                        Nu är det dags för <strong>DIG</strong> att vinna.
-                        Berätta om hur var ditt besök egentligen.
-                    </p>
-                    <br />
-                    <b> * fälten är obligatoriska </b>
-                </section>
-                <!-- Skapa en tabell med ett tävlingsformulär-->
-                <form method="post" class="myform">
-                    <div class="row">
-                        <div class="labelCol">
-                            <label for="firsttxt">Ditt namn:*</label>
-                        </div>
-                        <div class="formFieldCol">
-                            <input
-                                type="text"
-                                name="nametxt"
-                                id="firsttxt"
-                                aria-label="Namn"
-                                autofocus
-                            />
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="labelCol">
-                            <label for="mailtxt">Din e-postadress:*</label>
-                        </div>
-                        <div class="formFieldCol">
-                            <input
-                                aria-label="Email"
-                                id="mailtxt"
-                                type="email"
-                                name="emailtxt"
-                            />
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="labelCol">
-                            <label for="chooserang">Hur var ditt besök:*</label>
-                        </div>
-                        <div class="formFieldCol">
-                            <select id="chooserang" name="rank">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                                <option>6</option>
-                                <option>7</option>
-                                <option>8</option>
-                                <option>9</option>
-                                <option>10</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="labelCol">
-                            <label for="whytxt"
-                                >Varför vill du delta i den här
-                                tävlingen:*</label
-                            >
-                        </div>
-                        <div class="formFieldCol">
-                            <textarea
-                                cols="50"
-                                id="whytxt"
-                                rows="4"
-                                name="whytxt"
-                            ></textarea>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="labelCol">
-                            <label for="other"
-                                >Övriga frågor/kommentarer:</label
-                            >
-                        </div>
-                        <div class="formFieldCol">
-                            <textarea
-                                id="other"
-                                cols="50"
-                                rows="5"
-                                name="other"
-                            ></textarea>
-                        </div>
-                    </div>
-                    <button aria-label="Skicka" type="button">Skicka</button>
-                </form>
-            </main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Fadi Hanna" />
+    <meta name="keywords" content="Datahjalp, projekt, hjälp" />
+    <meta
+      name="description"
+      content="Datahjalp projekt hjälper dig att laga dina datorer."
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/icons/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="assets/icons/favicon/site.webmanifest"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.min.css" type="text/css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Datahjälp - Tävling</title>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <div class="mylogo">
+          <a href="index.html" title="Länk till logo">
+            <img
+              src="assets/images/logo.jpg"
+              class="logobild"
+              alt="Sidans logo"
+              title="Datahjälp logo"
+              width="600"
+              height="600"
+              aria-label="Sidans logo"
+              loading="lazy"
+            />
+          </a>
         </div>
+        <nav>
+          <ul id="mainnav">
+            <li><a href="index.html" title="Home">Startsida</a></li>
+            <li><a href="prices.html" title="Prices">Priser</a></li>
+            <li>
+              <a href="competition.html" title="Competition"
+                >Tävling</a
+              >
+            </li>
+            <li>
+              <a href="contact.html" title="Contact">Kontakta oss</a>
+            </li>
+            <li><a href="about.html" title="About">Om oss</a></li>
+          </ul>
+        </nav>
         <hr class="line" />
-        <footer>
-            <p class="lead">Datahjälp AB</p>
-            <address>Adress: Ringvägen 5, Stockholm.</address>
-            <br />
-            <p class="lead">
-                E-postadress:
-                <a class="footerlink" href="mailto:datahjalpab@hotmail.com"
-                    >datahjalpab@hotmail.com</a
-                >
-                <br />
-                Telefonnummer:
-                <a class="footerlink" href="tel:084751014"> 08-4751014 </a>
-                <br />
-                Mobilnummer:
-                <a class="footerlink" href="tel:0735798048"> 073-5798048 </a>
-                <br />
-            </p>
-        </footer>
-    </body>
+      </header>
+      <main class="main">
+        <section>
+          <!-- Skapa tävlingsinformation-->
+          <h1 class="myheading">Tävling</h1>
+          <p>
+            Varje år anordnar vi en tävling som resulterar på en
+            vinnare som får
+          </p>
+          <ul class="competitionPriceList">
+            <li>Gratis år datahjälp</li>
+            <li>HTC express mobil</li>
+          </ul>
+          <p>
+            Nu är det dags för <strong>DIG</strong> att vinna. Berätta
+            om hur var ditt besök egentligen.
+          </p>
+          <br />
+          <b> * fälten är obligatoriska </b>
+        </section>
+        <!-- Skapa en tabell med ett tävlingsformulär-->
+        <form method="post" class="myform">
+          <div class="row">
+            <div class="labelCol">
+              <label for="firsttxt">Ditt namn:*</label>
+            </div>
+            <div class="formFieldCol">
+              <input
+                type="text"
+                name="nametxt"
+                id="firsttxt"
+                aria-label="Namn"
+                autofocus
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="labelCol">
+              <label for="mailtxt">Din e-postadress:*</label>
+            </div>
+            <div class="formFieldCol">
+              <input
+                aria-label="Email"
+                id="mailtxt"
+                type="email"
+                name="emailtxt"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="labelCol">
+              <label for="chooserang">Hur var ditt besök:*</label>
+            </div>
+            <div class="formFieldCol">
+              <select id="chooserang" name="rank">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="labelCol">
+              <label for="whytxt"
+                >Varför vill du delta i den här tävlingen:*</label
+              >
+            </div>
+            <div class="formFieldCol">
+              <textarea
+                cols="50"
+                id="whytxt"
+                rows="4"
+                name="whytxt"
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="labelCol">
+              <label for="other">Övriga frågor/kommentarer:</label>
+            </div>
+            <div class="formFieldCol">
+              <textarea
+                id="other"
+                cols="50"
+                rows="5"
+                name="other"
+              ></textarea>
+            </div>
+          </div>
+          <button aria-label="Skicka" type="button">Skicka</button>
+        </form>
+      </main>
+    </div>
+    <hr class="line" />
+    <footer>
+      <p class="lead">Datahjälp AB</p>
+      <address>Adress: Ringvägen 5, Stockholm.</address>
+      <br />
+      <p class="lead">
+        E-postadress:
+        <a class="footerlink" href="mailto:datahjalpab@hotmail.com"
+          >datahjalpab@hotmail.com</a
+        >
+        <br />
+        Telefonnummer:
+        <a class="footerlink" href="tel:084751014"> 08-4751014 </a>
+        <br />
+        Mobilnummer:
+        <a class="footerlink" href="tel:0735798048"> 073-5798048 </a>
+        <br />
+      </p>
+    </footer>
+  </body>
 </html>

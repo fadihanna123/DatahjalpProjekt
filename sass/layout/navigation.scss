@@ -1,33 +1,33 @@
 #{selector(mainNav)} {
-    display: $webbox;
-    display: $msflex;
-    display: $flex;
-    margin: 10px;
-    background: #f7f7f7;
-    -webkit-box-pack: $cntr;
-    -ms-flex-pack: $cntr;
-    justify-content: $cntr;
-    text-align: $cntr;
-    transition: 0.3s all;
+  display: $webbox;
+  display: $msflex;
+  display: $flex;
+  margin: 10px;
+  background: #f7f7f7;
+  -webkit-box-pack: $cntr;
+  -ms-flex-pack: $cntr;
+  justify-content: $cntr;
+  text-align: $cntr;
+  transition: 0.3s all;
 
-    #{selector(link)} {
-        border-radius: 10px; /* Skapa runda hörn runt länkarna */
-        padding: 6px; /* Lägg avstånd mellan länkarna 6px */
-        background: #292b2c;
-        border: 1px $solidbrd #292b2c;
-        color: #f7f7f7;
-        text-decoration: $none;
-        margin: 5px;
-        white-space: nowrap;
-        transition: 0.3s all;
-    }
+  #{selector(link)} {
+    border-radius: 10px; /* Skapa runda hörn runt länkarna */
+    padding: 6px; /* Lägg avstånd mellan länkarna 6px */
+    background: #292b2c;
+    border: 1px $solidbrd #292b2c;
+    color: #f7f7f7;
+    text-decoration: $none;
+    margin: 5px;
+    white-space: nowrap;
+    transition: 0.3s all;
+  }
 }
 
 @media screen and (max-width: 1900px) {
-    #{selector(mainNav)} #{selector(listItem)} {
-        -webkit-box-orient: $vertical;
-        -webkit-box-direction: $normal;
-        -ms-flex-direction: $col;
-        flex-direction: $col;
-    }
+  #{selector(mainNav)} #{selector(listItem)} {
+    -webkit-box-orient: $vertical;
+    -webkit-box-direction: $normal;
+    -ms-flex-direction: $col;
+    flex-direction: $col;
+  }
 }

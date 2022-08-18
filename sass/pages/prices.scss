@@ -1,29 +1,29 @@
 #{selector(priceTable)} {
-    margin: 0 $auto; /* Flytta pristabell till mitten */
-    margin-bottom: 10px;
-    width: 98%;
-    padding: 10px;
+  margin: 0 $auto; /* Flytta pristabell till mitten */
+  margin-bottom: 10px;
+  width: 98%;
+  padding: 10px;
+  transition: 0.3s;
+
+  #{selector(table)},
+  #{selector(th)},
+  #{selector(tr)},
+  #{selector(td)} {
+    border: 1px $solidbrd #292b2c;
+    border-collapse: collapse; /* Gör att tabellgränserna ska kollapsa till en enda gräns i tabellen. */
     transition: 0.3s;
+  }
 
-    #{selector(table)},
-    #{selector(th)},
-    #{selector(tr)},
-    #{selector(td)} {
-        border: 1px $solidbrd #292b2c;
-        border-collapse: collapse; /* Gör att tabellgränserna ska kollapsa till en enda gräns i tabellen. */
-        transition: 0.3s;
-    }
+  #{selector(td)}:hover {
+    background: #292b2c;
+    color: color(white);
+    transition: 0.3s all;
+  }
 
-    #{selector(td)}:hover {
-        background: #292b2c;
-        color: color(white);
-        transition: 0.3s all;
-    }
-
-    #{selector(thead)} {
-        border: 1px solid #292b2c;
-        background: #292b2c;
-        color: color(white);
-        transition: 0.3s;
-    }
+  #{selector(thead)} {
+    border: 1px solid #292b2c;
+    background: #292b2c;
+    color: color(white);
+    transition: 0.3s;
+  }
 }
