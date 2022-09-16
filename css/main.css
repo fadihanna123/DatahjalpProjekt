@@ -1,7 +1,9 @@
 @charset "UTF-8";
+
 /* Styles created by Fadi Hanna */
 #container {
   font-family: "Times New Roman", Times, serif;
+
   /* Typsnittlista på vilka typsnitt webbläsare ska använda */
   margin: 10px;
   transition: 0.3s;
@@ -12,24 +14,24 @@ label {
 }
 
 textarea :focus,
-input[type=text]:focus,
-input[type=password]:focus,
-input[type=datetime]:focus,
-input[type=datetime-local]:focus,
-input[type=date]:focus,
-input[type=month]:focus,
-input[type=time]:focus,
-input[type=week]:focus,
-input[type=number]:focus,
-input[type=email]:focus,
-input[type=url]:focus,
-input[type=search]:focus,
-input[type=tel]:focus,
-input[type=color]:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
 .uneditable-input:focus {
   border-color: #0275d8;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #add8e6;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #add8e6;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 7.5%) inset, 0 0 8px #add8e6;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 7.5%) inset, 0 0 8px #add8e6;
   outline: 0 none;
   transition: 0.3s;
 }
@@ -41,6 +43,7 @@ input[type=color]:focus,
 
 .main {
   font-size: 20px;
+
   /* Gör textstorlek till 20px */
   background-color: #5bc0de;
   margin: 10px;
@@ -78,8 +81,8 @@ input {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+  appearance: none;
+  appearance: none;
   appearance: none;
   transition: 0.3s;
 }
@@ -110,16 +113,20 @@ button {
 
   #srch {
     width: 180%;
+
     /* Gör bredden av sökfältet till 180% */
     border-radius: 0;
+
     /* Ta bort sökfältets runda hörn */
   }
 
   #srchbtn {
     border-radius: 0;
+
     /* Ta bort sökknappens runda hörn */
   }
 }
+
 .myheading {
   font-size: 35px;
   color: #3a1627;
@@ -128,7 +135,7 @@ button {
 }
 
 a {
-  color: #0000ff;
+  color: #00f;
   text-decoration: none;
 }
 
@@ -143,7 +150,7 @@ a {
 }
 
 .mytable {
-  display: -webkit-box;
+  display: box;
   display: -ms-flex;
   display: flex;
   transition: 0.3s;
@@ -163,7 +170,7 @@ a {
   margin: 0;
   padding: 0;
   font-size: 100%;
-  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   box-sizing: border-box;
   border: 0;
   outline: 0;
@@ -180,8 +187,10 @@ img {
 
 footer {
   background-color: #1a0000;
+
   /* Gör sidfoten till vit */
   height: 30%;
+
   /* Gör höjden av texten till 30% */
   color: #f7f7f7;
   margin: 10px;
@@ -191,7 +200,7 @@ footer {
 }
 
 .mylogo {
-  display: -webkit-box;
+  display: box;
   display: -ms-flex;
   display: flex;
   -webkit-box-pack: center;
@@ -216,6 +225,7 @@ footer {
     width: 30%;
   }
 }
+
 @media screen and (max-width: 1900px) {
   .logobild {
     width: 100%;
@@ -226,12 +236,13 @@ footer {
   .mylogo {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
+    flex-direction: column;
     flex-direction: column;
   }
 }
+
 #mainnav {
-  display: -webkit-box;
+  display: box;
   display: -ms-flex;
   display: flex;
   margin: 10px;
@@ -242,10 +253,13 @@ footer {
   text-align: center;
   transition: 0.3s all;
 }
+
 #mainnav a {
   border-radius: 10px;
+
   /* Skapa runda hörn runt länkarna */
   padding: 6px;
+
   /* Lägg avstånd mellan länkarna 6px */
   background: #292b2c;
   border: 1px solid #292b2c;
@@ -260,10 +274,11 @@ footer {
   #mainnav li {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
+    flex-direction: column;
     flex-direction: column;
   }
 }
+
 .labelCol {
   width: 500px;
   margin-bottom: 15px;
@@ -279,7 +294,7 @@ footer {
 }
 
 .row {
-  display: -webkit-box;
+  display: box;
   display: -ms-flex;
   display: flex;
   margin: 10px;
@@ -292,29 +307,32 @@ footer {
 
 @media screen and (max-width: 1200px) {
   h1,
-img {
+  img {
     width: 100%;
   }
 
   #container {
     font-family: "Times New Roman", Times, serif;
+
     /* Typsnittlista på vilka typsnitt webbläsare ska använda */
   }
 
   .labelCol,
-.formFieldCol {
+  .formFieldCol {
     width: 100%;
   }
 
   .row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
+    flex-direction: column;
     flex-direction: column;
   }
 }
+
 #abouttxt {
   font-size: 20px;
+
   /* Gör textstorlek till 20px */
   margin: 10px;
   transition: 0.3s all;
@@ -322,26 +340,31 @@ img {
 
 #pricetable {
   margin: 0 auto;
+
   /* Flytta pristabell till mitten */
   margin-bottom: 10px;
   width: 98%;
   padding: 10px;
   transition: 0.3s;
 }
+
 #pricetable table,
 #pricetable th,
 #pricetable tr,
 #pricetable td {
   border: 1px solid #292b2c;
   border-collapse: collapse;
+
   /* Gör att tabellgränserna ska kollapsa till en enda gräns i tabellen. */
   transition: 0.3s;
 }
+
 #pricetable td:hover {
   background: #292b2c;
   color: #fff;
   transition: 0.3s all;
 }
+
 #pricetable thead {
   border: 1px solid #292b2c;
   background: #292b2c;

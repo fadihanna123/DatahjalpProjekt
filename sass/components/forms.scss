@@ -3,26 +3,23 @@
 }
 
 #{selector(txtArea)} :focus,
-input[type='text']:focus,
-input[type='password']:focus,
-input[type='datetime']:focus,
-input[type='datetime-local']:focus,
-input[type='date']:focus,
-input[type='month']:focus,
-input[type='time']:focus,
-input[type='week']:focus,
-input[type='number']:focus,
-input[type='email']:focus,
-input[type='url']:focus,
-input[type='search']:focus,
-input[type='tel']:focus,
-input[type='color']:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
 .uneditable-input:focus {
   border-color: #0275d8;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) $insetbrd,
-    0 0 8px color(lightBlue);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) $insetbrd,
-    0 0 8px color(lightBlue);
+  box-shadow: 0 1px 1px rgb(0 0 0 / 7.5%) $insetbrd, 0 0 8px color(lightblue);
   outline: 0 $none;
   transition: 0.3s;
 }
@@ -70,16 +67,14 @@ input[type='color']:focus,
   background-color: color(white);
   background-clip: padding-box;
   border: 1px $solidbrd #ced4da;
-  -webkit-appearance: $none;
-  -moz-appearance: $none;
   appearance: $none;
   transition: 0.3s;
 }
 
 #{selector(button)} {
   color: color(white);
-  background-color: color(btnColor);
-  border-color: color(btnColor);
+  background-color: color(btncolor);
+  border-color: color(btncolor);
   margin-bottom: 10px;
   padding: 10px;
   transition: 0.3s;
@@ -93,9 +88,7 @@ input[type='color']:focus,
 @media screen and (min-width: 900px) and (max-width: 1900px) {
   #{selector(myForm)} {
     margin: 0 $auto;
-  }
 
-  #{selector(myForm)} {
     #{selector(row)} {
       width: 50%;
       margin: 0 $auto;

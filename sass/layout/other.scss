@@ -42,7 +42,6 @@
   #{selector(row)} {
     -webkit-box-orient: $vertical;
     -webkit-box-direction: $normal;
-    -ms-flex-direction: $col;
     flex-direction: $col;
   }
 }
