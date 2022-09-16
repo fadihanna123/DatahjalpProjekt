@@ -40,7 +40,7 @@ a {
   text-decoration: none;
 }
 #container {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", times, serif;
 }
 label {
   padding: 10px 15px;
@@ -62,8 +62,7 @@ input[type="url"]:focus,
 input[type="week"]:focus,
 textarea :focus {
   border-color: #0275d8;
-  box-shadow: 0 1px 1px rgb(0 0 0 / 7.5%) inset, 0 0 8px #add8e6;
-  box-shadow: 0 1px 1px rgb(0 0 0 / 7.5%) inset, 0 0 8px #add8e6;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #add8e6;
   outline: 0;
   transition: 0.3s;
 }
@@ -98,15 +97,10 @@ input {
   background-clip: padding-box;
   border: 1px solid #ced4da;
   appearance: none;
-  appearance: none;
-  appearance: none;
 }
 button {
   color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
 }
-
 @media screen and (min-width: 900px) and (max-width: 1900px) {
   .myform,
   .myform .row {
@@ -138,9 +132,6 @@ img {
 .txt {
   transition: 0.3s;
 }
-a {
-  color: #00f;
-}
 .footerlink {
   color: #fff;
 }
@@ -148,7 +139,7 @@ a {
   margin: 10px;
 }
 .mytable {
-  display: box;
+  display: -webkit-box;
   display: -ms-flex;
   display: flex;
 }
@@ -160,7 +151,6 @@ a {
   margin: 0;
   padding: 0;
   font-size: 100%;
-  box-sizing: border-box;
   box-sizing: border-box;
   border: 0;
   outline: 0;
@@ -183,7 +173,7 @@ footer {
   text-align: center;
 }
 .mylogo {
-  display: box;
+  display: -webkit-box;
   display: -ms-flex;
   display: flex;
   -webkit-box-pack: center;
@@ -196,7 +186,6 @@ footer {
   margin: 0 auto;
   transition: 0.3s;
 }
-
 @media screen and (min-width: 900px) and (max-width: 1900px) {
   .mylogo {
     margin: 0 auto;
@@ -204,7 +193,6 @@ footer {
     width: 30%;
   }
 }
-
 @media screen and (max-width: 1900px) {
   .logobild {
     width: 100%;
@@ -215,11 +203,10 @@ footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;
-    flex-direction: column;
   }
 }
 #mainnav {
-  display: box;
+  display: -webkit-box;
   display: -ms-flex;
   display: flex;
   margin: 10px;
@@ -240,12 +227,10 @@ footer {
   white-space: nowrap;
   transition: 0.3s all;
 }
-
 @media screen and (max-width: 1900px) {
   #mainnav li {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    flex-direction: column;
     flex-direction: column;
   }
 }
@@ -262,14 +247,13 @@ footer {
   transition: 0.3s all;
 }
 .row {
-  display: box;
+  display: -webkit-box;
   display: -ms-flex;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
-
 @media screen and (max-width: 1200px) {
   .formFieldCol,
   .labelCol,
@@ -278,12 +262,11 @@ footer {
     width: 100%;
   }
   #container {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", times, serif;
   }
   .row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    flex-direction: column;
     flex-direction: column;
   }
 }
