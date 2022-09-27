@@ -1,17 +1,15 @@
 ## 1.0 Datahjälp
 
-Datahjälp är ett företag som informerar kunderna om företagets priser och kontaktuppgifter till detta företag. Datahjälp hjälper kunder att laga sina datorer och företaget ligger i Ringvägen 5, Stockholm.
-<br>Hemsidan är responsivt.
+Datahjälp is a company that informs customers about the company's prices and contact details for these companies. Datahjälp helps customers fix their computers and the company is located at Ringvägen 5, Stockholm. <br />The website is responsive.
 
 ## 1.1 Installation
 
-Du kan ladda ner alla dessa filer och installera källkodsfiler i din lokala server eller egen hemsida.
+You can download all these files and install source code files in your local server or own website.
 
 ## 1.2 Demo
-
 <a href='https://fadihanna123.github.io/DatahjalpProjekt/'>Demo</a>
 
-## 1.3 Mappstruktur
+## 1.3 Folder Structure
 .github/ <br />
 .github/CODEOWNERS <br />
 .github/dependabot.yml <br />
@@ -80,10 +78,10 @@ package.json <br />
 pnpm-lock.yaml <br />
 screenshot.png <br />
 
-## 1.4 Programmeringsspråk som används i projektet:
+## 1.4 Programminglanguages used in the project:
 
-HTML, Sass och CSS.
+HTML, Sass and CSS.
 
-## 1.5 Skärmdump av Datahjälp AB hemsidan
+## 1.5 Screenshot:
 
 ![alt text](https://github.com/fadihanna123/DatahjalpProjekt/blob/master/screenshot.png 'Screenshot av hemsidan')
