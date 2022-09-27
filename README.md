@@ -12,7 +12,9 @@ Du kan ladda ner alla dessa filer och installera källkodsfiler i din lokala ser
 <a href='https://fadihanna123.github.io/DatahjalpProjekt/'>Demo</a>
 
 ## 1.3 Mappstruktur
-
+.github/ <br />
+.github/CODEOWNERS <br />
+.github/dependabot.yml <br />
 .husky/ <br />
 .husky/pre-commit <br />
 .vscode/ <br />
