@@ -15,6 +15,9 @@ Du kan ladda ner alla dessa filer och installera källkodsfiler i din lokala ser
 
 .husky/ <br />
 .husky/pre-commit <br />
+.vscode/ <br />
+.vscode/extensions.json <br />
+.vscode/settings.json <br />
 assets/<br />
 assets/icons/favicon/ <br />
 assets/icons/favicon/android-chrome-192x192.png <br />
@@ -58,6 +61,9 @@ css/main.css <br />
 css/main.min.css <br />
 .editorconfig <br />
 .prettierc <br />
+.prettierignore <br />
+.stylelintrc.json <br />
+.stylelintignore <br />
 AUTHORS <br />
 README.md <br />
 about.html <br />
@@ -71,7 +77,6 @@ prices.html <br />
 package.json <br />
 pnpm-lock.yaml <br />
 screenshot.png <br />
-.prettierignore <br />
 
 ## 1.4 Programmeringsspråk som används i projektet:
 
