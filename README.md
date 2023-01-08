@@ -71,7 +71,6 @@ competition.html <br />
 contact.html <br />
 index.html <br />
 prices.html <br />
-.htmlhintrc <br />
 .gitattributes <br />
 .gitignore <br />
 package.json <br />

@@ -4,6 +4,5 @@
 pnpm i
 pnpm manypkg check
 npx stylelint "**/*.scss"
-htmlhint
 npx pretty-quick --staged
 rimraf node_modules
