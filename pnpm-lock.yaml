@@ -1,18 +1,18 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@manypkg/cli': ^0.19.2
+  '@manypkg/cli': ^0.20.0
   husky: ^8.0.3
-  prettier: ^2.8.2
+  prettier: ^2.8.3
   stylelint: ^14.16.1
   stylelint-config-prettier: ^9.0.4
   stylelint-config-standard: ^29.0.0
   stylelint-config-standard-scss: ^6.1.0
 
 dependencies:
-  '@manypkg/cli': 0.19.2
+  '@manypkg/cli': 0.20.0
   husky: 8.0.3
-  prettier: 2.8.2
+  prettier: 2.8.3
   stylelint: 14.16.1
   stylelint-config-prettier: 9.0.4_stylelint@14.16.1
   stylelint-config-standard: 29.0.0_stylelint@14.16.1
@@ -41,34 +41,23 @@ packages:
       js-tokens: 4.0.0
     dev: false
 
-  /@babel/runtime/7.20.7:
-    resolution: {integrity: sha512-UF0tvkUtxwAgZ5W/KrkHf0Rn0fdnLDU9ScxBrEVNUprE/MzirjK4MJUX1/BVDv00Sv8cljtukVK1aky++X1SjQ==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      regenerator-runtime: 0.13.11
-    dev: false
-
-  /@changesets/types/4.1.0:
-    resolution: {integrity: sha512-LDQvVDv5Kb50ny2s25Fhm3d9QSZimsoUGBsUioj6MC3qbMUCuC8GPIvk/M6IvXx3lYhAs0lwWUQLb+VIEUCECw==}
-    dev: false
-
-  /@csstools/selector-specificity/2.0.2_wajs5nedgkikc5pcuwett7legi:
-    resolution: {integrity: sha512-IkpVW/ehM1hWKln4fCA3NzJU8KwD+kIOvPZA4cqxoJHtE21CCzjyp+Kxbu0i5I4tBNOlXPL9mjwnWlL0VEG4Fg==}
-    engines: {node: ^12 || ^14 || >=16}
+  /@csstools/selector-specificity/2.1.1_wajs5nedgkikc5pcuwett7legi:
+    resolution: {integrity: sha512-jwx+WCqszn53YHOfvFMJJRd/B2GqkCBt+1MJSG6o5/s8+ytHMvDZXsJgUEWLk12UnLd7HYKac4BYU5i/Ron1Cw==}
+    engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
-      postcss: ^8.2
+      postcss: ^8.4
       postcss-selector-parser: ^6.0.10
     dependencies:
       postcss: 8.4.21
       postcss-selector-parser: 6.0.11
     dev: false
 
-  /@manypkg/cli/0.19.2:
-    resolution: {integrity: sha512-DXx/P1lyunNoFWwOj1MWBucUhaIJljoiAGOpO2fE0GKMBCI6EZBZD0Up1+fQZoXBecKXRgV9mGgLvIB2fOQ0KQ==}
+  /@manypkg/cli/0.20.0:
+    resolution: {integrity: sha512-xOAyzHp4cF6+1VxCeVi14k4WJBbKAExuYVA+wXlCHPLoTUv64D2HQrLUOFO8bXtzW9KFhGhdP2xGFq9n9rSDiw==}
+    engines: {node: '>=14.18.0'}
     hasBin: true
     dependencies:
-      '@babel/runtime': 7.20.7
-      '@manypkg/get-packages': 1.1.3
+      '@manypkg/get-packages': 2.1.0
       chalk: 2.4.2
       detect-indent: 6.1.0
       find-up: 4.1.0
@@ -83,23 +72,31 @@ packages:
       validate-npm-package-name: 3.0.0
     dev: false
 
-  /@manypkg/find-root/1.1.0:
-    resolution: {integrity: sha512-mki5uBvhHzO8kYYix/WRy2WX8S3B5wdVSc9D6KcU5lQNglP2yt58/VfLuAK49glRXChosY8ap2oJ1qgma3GUVA==}
+  /@manypkg/find-root/2.1.0:
+    resolution: {integrity: sha512-NEYRVlZCJYhRTqQURhv+WBpDcvmsp/M423Wcdvggv8lYJYD4GtqnTMLrQaTjA10fYt/PIc3tSdwV+wxJnWqPfQ==}
+    engines: {node: '>=14.18.0'}
     dependencies:
-      '@babel/runtime': 7.20.7
+      '@manypkg/tools': 1.0.0
       '@types/node': 12.20.55
       find-up: 4.1.0
       fs-extra: 8.1.0
     dev: false
 
-  /@manypkg/get-packages/1.1.3:
-    resolution: {integrity: sha512-fo+QhuU3qE/2TQMQmbVMqaQ6EWbMhi4ABWP+O4AM1NqPBuy0OrApV5LO6BrrgnhtAHS2NH6RrVk9OL181tTi8A==}
+  /@manypkg/get-packages/2.1.0:
+    resolution: {integrity: sha512-IgWPEGgeKeR3ISlgHAMbY+m042yjNe3NPt8UmJT0xMwofe/UifUVtOq5aUBkNSygfOrcUh/j5JExLPuOx72quA==}
+    engines: {node: '>=14.18.0'}
     dependencies:
-      '@babel/runtime': 7.20.7
-      '@changesets/types': 4.1.0
-      '@manypkg/find-root': 1.1.0
+      '@manypkg/find-root': 2.1.0
+      '@manypkg/tools': 1.0.0
+    dev: false
+
+  /@manypkg/tools/1.0.0:
+    resolution: {integrity: sha512-W8uDMhDGtwNyXYr6A+MWggxdL3spOQ8rfMNYpNph1GDJ0v084MnBFdpF1jvcPZ0okHAeYccV7le8AUs+fzwsAQ==}
+    engines: {node: '>=14.18.0'}
+    dependencies:
       fs-extra: 8.1.0
       globby: 11.1.0
+      jju: 1.4.0
       read-yaml-file: 1.1.0
     dev: false
 
@@ -253,7 +250,7 @@ packages:
     dependencies:
       clone-response: 1.0.3
       get-stream: 5.2.0
-      http-cache-semantics: 4.1.0
+      http-cache-semantics: 4.1.1
       keyv: 3.1.0
       lowercase-keys: 2.0.0
       normalize-url: 4.5.1
@@ -639,8 +636,8 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
-  /http-cache-semantics/4.1.0:
-    resolution: {integrity: sha512-carPklcUh7ROWRK7Cv27RPtdhYhUsela/ue5/jKzjegVvXDqM2ILE9Q2BGn9JZJh1g87cp56su/FgQSzcWS8cQ==}
+  /http-cache-semantics/4.1.1:
+    resolution: {integrity: sha512-er295DKPVsV82j5kw1Gjt+ADA/XYHsajl82cGNQG2eyoPkvgUhX+nDIyelzhIWbbsXP39EHcI6l5tYs2FYqYXQ==}
     dev: false
 
   /husky/8.0.3:
@@ -736,6 +733,10 @@ packages:
 
   /isexe/2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
+    dev: false
+
+  /jju/1.4.0:
+    resolution: {integrity: sha512-8wb9Yw966OSxApiCt0K3yNJL8pnNeIv+OEq2YMidz4FKP6nonSRoOXc80iXY4JaN2FC11B9qsNmDsm+ZOfMROA==}
     dev: false
 
   /js-tokens/4.0.0:
@@ -1085,8 +1086,8 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
-  /prettier/2.8.2:
-    resolution: {integrity: sha512-BtRV9BcncDyI2tsuS19zzhzoxD8Dh8LiCx7j7tHzrkz8GFXAexeWFdi22mjE1d16dftH2qNaytVxqiRTGlMfpw==}
+  /prettier/2.8.3:
+    resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: false
@@ -1102,8 +1103,8 @@ packages:
       once: 1.4.0
     dev: false
 
-  /punycode/2.1.1:
-    resolution: {integrity: sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==}
+  /punycode/2.3.0:
+    resolution: {integrity: sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==}
     engines: {node: '>=6'}
     dev: false
 
@@ -1161,10 +1162,6 @@ packages:
     dependencies:
       indent-string: 4.0.0
       strip-indent: 3.0.0
-    dev: false
-
-  /regenerator-runtime/0.13.11:
-    resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}
     dev: false
 
   /registry-auth-token/4.2.2:
@@ -1433,7 +1430,7 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
-      '@csstools/selector-specificity': 2.0.2_wajs5nedgkikc5pcuwett7legi
+      '@csstools/selector-specificity': 2.1.1_wajs5nedgkikc5pcuwett7legi
       balanced-match: 2.0.0
       colord: 2.9.3
       cosmiconfig: 7.1.0
@@ -1557,7 +1554,7 @@ packages:
   /uri-js/4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
     dependencies:
-      punycode: 2.1.1
+      punycode: 2.3.0
     dev: false
 
   /url-parse-lax/3.0.0:
