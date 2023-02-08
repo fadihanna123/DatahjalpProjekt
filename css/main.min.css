@@ -99,7 +99,7 @@ input {
   appearance: none;
 }
 button {
-  color: #fff;
+  color: #000;
 }
 @media screen and (min-width: 900px) and (max-width: 1900px) {
   .myform,
