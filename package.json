@@ -12,6 +12,9 @@
     "name": "Fadi Hanna",
     "email": "fhanna181@gmail.com"
   },
+  "scripts": {
+    "format": "prettier -w ."
+  },
   "dependencies": {
     "@manypkg/cli": "^0.20.0",
     "husky": "^8.0.3",
