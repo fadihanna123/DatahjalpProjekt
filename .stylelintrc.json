@@ -1,6 +1,7 @@
 {
   "extends": ["stylelint-config-standard", "stylelint-config-standard-scss"],
   "rules": {
-    "scss/dollar-variable-pattern": null
+    "scss/dollar-variable-pattern": null,
+    "media-feature-range-notation": null
   }
 }
