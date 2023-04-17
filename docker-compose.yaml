@@ -1,0 +1,7 @@
+version: '1.0.0'
+
+services:
+  datahjalpproject:
+    build: .
+    ports:
+      - '1000:1000'

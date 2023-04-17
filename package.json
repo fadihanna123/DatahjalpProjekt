@@ -13,6 +13,7 @@
     "email": "fhanna181@gmail.com"
   },
   "scripts": {
+    "start": "live-server --watch=index.html --port=1000",
     "format": "prettier -w ."
   },
   "dependencies": {
