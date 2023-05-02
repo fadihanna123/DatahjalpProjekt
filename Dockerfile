@@ -1,4 +1,4 @@
-FROM node:19-alpine
+FROM node:latest
 WORKDIR /var/www/html
 COPY . .
 RUN npm i -g pnpm live-server

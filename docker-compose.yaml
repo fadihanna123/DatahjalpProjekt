@@ -4,4 +4,4 @@ services:
   datahjalpproject:
     build: .
     ports:
-      - '1000:1000'
+      - 1000:1000
