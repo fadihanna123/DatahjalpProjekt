@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Install Dependencies",
+      "type": "shell",
+      "command": "pnpm i",
+      "runOptions": { "runOn": "folderOpen" },
+      "presentation": {
+        "reveal": "silent",
+        "close": true
+      }
+    },
+    {
+      "label": "Remove Dependencies",
+      "type": "shell",
+      "command": "rm -rf node_modules",
+      "presentation": {
+        "reveal": "silent",
+        "close": true
+      }
+    },
+  ]
+}
