@@ -19,7 +19,9 @@ input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
   border-color: #0275d8;
-  box-shadow: 0 1px 1px rgb(0 0 0 / 7.5%) $insetbrd, 0 0 8px color(lightblue);
+  box-shadow:
+    0 1px 1px rgb(0 0 0 / 7.5%) $insetbrd,
+    0 0 8px color(lightblue);
   outline: 0 $none;
   transition: 0.3s;
 }
