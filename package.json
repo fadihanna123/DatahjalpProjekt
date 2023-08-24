@@ -16,6 +16,11 @@
     "start": "live-server --watch=index.html --port=1000",
     "format": "prettier -w ."
   },
+  "engines": {
+    "node": ">=14.12.0",
+    "npm": "Please use pnpm instead of NPM to install dependencies",
+    "yarn": "Please use pnpm instead of Yarn to install dependencies"
+  },
   "dependencies": {
     "@manypkg/cli": "^0.21.0",
     "@types/eslint": "^8.44.2",
@@ -29,10 +34,5 @@
     "stylelint-config-standard": "^34.0.0",
     "stylelint-config-standard-scss": "^10.0.0",
     "stylelint-scss": "^5.1.0"
-  },
-  "engines": {
-    "node": ">=14.12.0",
-    "npm": "Please use pnpm instead of NPM to install dependencies",
-    "yarn": "Please use pnpm instead of Yarn to install dependencies"
   }
 }
