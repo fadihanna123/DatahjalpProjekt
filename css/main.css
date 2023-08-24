@@ -12,20 +12,20 @@ label {
 }
 
 textarea :focus,
-input[type="text"]:focus,
-input[type="password"]:focus,
-input[type="datetime"]:focus,
-input[type="datetime-local"]:focus,
-input[type="date"]:focus,
-input[type="month"]:focus,
-input[type="time"]:focus,
-input[type="week"]:focus,
-input[type="number"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="search"]:focus,
-input[type="tel"]:focus,
-input[type="color"]:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=datetime]:focus,
+input[type=datetime-local]:focus,
+input[type=date]:focus,
+input[type=month]:focus,
+input[type=time]:focus,
+input[type=week]:focus,
+input[type=number]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+input[type=color]:focus,
 .uneditable-input:focus {
   border-color: #0275d8;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #add8e6;
@@ -282,7 +282,7 @@ footer {
 
 @media screen and (max-width: 1200px) {
   h1,
-  img {
+img {
     width: 100%;
   }
 
@@ -292,7 +292,7 @@ footer {
   }
 
   .labelCol,
-  .formFieldCol {
+.formFieldCol {
     width: 100%;
   }
 
