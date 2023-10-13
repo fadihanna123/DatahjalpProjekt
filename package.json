@@ -1,13 +1,13 @@
 {
   "name": "data_hjalp_projekt",
   "license": "MIT",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "bugs": "https://github.com/fadihanna123/DatahjalpProjekt/issues",
   "repository": {
     "type": "git",
     "url": "https://github.com/fadihanna123/DatahjalpProjekt"
   },
-  "lastUpgrade": "20230824",
+  "lastUpgrade": "20231013",
   "author": {
     "name": "Fadi Hanna",
     "email": "fhanna181@gmail.com"
@@ -17,22 +17,21 @@
     "format": "prettier -w ."
   },
   "engines": {
-    "node": ">=14.12.0",
-    "npm": "Please use pnpm instead of NPM to install dependencies",
-    "yarn": "Please use pnpm instead of Yarn to install dependencies"
+    "node": ">=16.0.0",
+    "npm": "Please use pnpm instead of NPM to install dependencies"
   },
   "dependencies": {
     "@manypkg/cli": "^0.21.0",
-    "@types/eslint": "^8.44.2",
-    "eslint": "^8.47.0",
+    "@types/eslint": "^8.44.4",
+    "eslint": "^8.51.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-css": "^0.8.1",
     "eslint-plugin-html": "^7.1.0",
     "husky": "^8.0.3",
-    "prettier": "^3.0.2",
+    "prettier": "^3.0.3",
     "stylelint": "^15.10.3",
     "stylelint-config-standard": "^34.0.0",
-    "stylelint-config-standard-scss": "^10.0.0",
-    "stylelint-scss": "^5.1.0"
+    "stylelint-config-standard-scss": "^11.0.0",
+    "stylelint-scss": "^5.2.1"
   }
 }
