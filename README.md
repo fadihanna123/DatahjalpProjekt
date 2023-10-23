@@ -6,9 +6,6 @@ Datahjälp is a company that informs customers about the company's prices and co
 
 You can download all these files and install source code files in your local server or own website.
 
-## 1.2 Demo
-<a href='https://fadihanna123.github.io/DatahjalpProjekt/'>Demo</a>
-
 ## 1.3 Folder Structure
 .github/ <br />
 .github/CODEOWNERS <br />
