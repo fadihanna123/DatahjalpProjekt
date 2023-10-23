@@ -6,7 +6,7 @@ Datahjälp is a company that informs customers about the company's prices and co
 
 You can download all these files and install source code files in your local server or own website.
 
-## 1.3 Folder Structure
+## 1.2 Folder Structure
 .github/ <br />
 .github/CODEOWNERS <br />
 .github/dependabot.yml <br />
@@ -74,10 +74,10 @@ package.json <br />
 pnpm-lock.yaml <br />
 screenshot.png <br />
 
-## 1.4 Programminglanguages used in the project:
+## 1.3 Programminglanguages used in the project:
 
 HTML, Sass and CSS.
 
-## 1.5 Screenshot:
+## 1.4 Screenshot:
 
 ![alt text](https://github.com/fadihanna123/DatahjalpProjekt/blob/master/screenshot.png 'Screenshot av hemsidan')
