@@ -1,7 +1,7 @@
 {
   "name": "data_hjalp_projekt",
   "license": "MIT",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "bugs": "https://github.com/fadihanna123/DatahjalpProjekt/issues",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
     "email": "fhanna181@gmail.com"
   },
   "scripts": {
-    "start": "live-server --watch=index.html --port=1000",
+    "dev": "live-server --watch=index.html --port=1000",
     "format": "prettier -w ."
   },
   "engines": {
@@ -22,14 +22,14 @@
   },
   "dependencies": {
     "@manypkg/cli": "^0.21.0",
-    "@types/eslint": "^8.44.4",
-    "eslint": "^8.51.0",
+    "@types/eslint": "^8.44.6",
+    "eslint": "^8.52.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-css": "^0.8.1",
     "eslint-plugin-html": "^7.1.0",
     "husky": "^8.0.3",
     "prettier": "^3.0.3",
-    "stylelint": "^15.10.3",
+    "stylelint": "^15.11.0",
     "stylelint-config-standard": "^34.0.0",
     "stylelint-config-standard-scss": "^11.0.0",
     "stylelint-scss": "^5.2.1"
