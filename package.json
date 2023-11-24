@@ -14,7 +14,8 @@
   },
   "scripts": {
     "dev": "live-server --watch=index.html --port=1000",
-    "format": "prettier -w ."
+    "format": "prettier -w .",
+    "lint": "eslint ."
   },
   "engines": {
     "node": ">=16.0.0",
@@ -28,5 +29,12 @@
     "stylelint-config-standard": "^34.0.0",
     "stylelint-config-standard-scss": "^11.1.0",
     "stylelint-scss": "^5.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-stylelint": "^20.0.0",
+    "eslint-plugin-editorconfig": "^4.0.3",
+    "eslint-plugin-html": "^7.1.0"
   }
 }
