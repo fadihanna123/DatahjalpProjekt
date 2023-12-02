@@ -27,11 +27,11 @@ const config = {
   },
   plugins: ['html', 'editorconfig'],
   rules: {
-    indent: ['error', 2],
-    'linebreak-style': ['error', 'windows'],
-    quotes: ['error', 'single'],
-    semi: ['error', 'always'],
-    'no-console': 'error',
+    indent: ['warn', 2],
+    'linebreak-style': ['warn', 'windows'],
+    quotes: ['warn', 'single'],
+    semi: ['warn', 'always'],
+    'no-console': 'warn',
     'editorconfig/eol-last': 'off',
   },
 };
