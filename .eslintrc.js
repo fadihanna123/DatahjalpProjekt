@@ -5,12 +5,7 @@ const config = {
     es2023: true,
   },
   root: true,
-  extends: [
-    'eslint:recommended',
-    'stylelint',
-    'plugin:editorconfig/all',
-    'prettier',
-  ],
+  extends: ['eslint:recommended', 'plugin:editorconfig/all', 'prettier'],
   overrides: [
     {
       env: {
@@ -25,7 +20,7 @@ const config = {
   parserOptions: {
     ecmaVersion: 'latest',
   },
-  plugins: ['html', 'editorconfig'],
+  plugins: ['editorconfig'],
   rules: {
     indent: ['warn', 2],
     'linebreak-style': ['warn', 'windows'],
