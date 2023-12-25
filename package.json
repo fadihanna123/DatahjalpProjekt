@@ -1,7 +1,7 @@
 {
   "name": "data_hjalp_projekt",
   "license": "MIT",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "bugs": "https://github.com/fadihanna123/DatahjalpProjekt/issues",
   "repository": {
     "type": "git",
@@ -24,14 +24,14 @@
   "dependencies": {
     "@manypkg/cli": "^0.21.1",
     "husky": "^8.0.3",
-    "prettier": "^3.1.0",
-    "stylelint": "^15.11.0",
-    "stylelint-config-standard": "^34.0.0",
-    "stylelint-config-standard-scss": "^11.1.0",
-    "stylelint-scss": "^5.3.1"
+    "prettier": "^3.1.1",
+    "stylelint": "^16.1.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-scss": "^12.0.0",
+    "stylelint-scss": "^6.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.55.0",
+    "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-editorconfig": "^4.0.3"
   }
