@@ -11,6 +11,7 @@
     "name": "Fadi Hanna",
     "email": "fhanna181@gmail.com"
   },
+  "homepage": "http://localhost:3000",
   "scripts": {
     "dev": "serve",
     "lint": "eslint .",
