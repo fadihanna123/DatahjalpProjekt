@@ -1,7 +1,7 @@
 {
   "name": "data_hjalp_projekt",
   "license": "MIT",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "bugs": "https://github.com/fadihanna123/DatahjalpProjekt/issues",
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
   "dependencies": {
     "@manypkg/cli": "^0.21.1",
     "husky": "^8.0.3",
-    "prettier": "^3.1.1",
+    "prettier": "^3.2.1",
     "stylelint-config-standard": "^36.0.0",
     "stylelint-config-standard-scss": "^13.0.0",
     "stylelint-scss": "^6.0.0"
