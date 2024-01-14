@@ -71,7 +71,7 @@ prices.html <br />
 .gitattributes <br />
 .gitignore <br />
 package.json <br />
-pnpm-lock.yaml <br />
+yarn.lock <br />
 screenshot.png <br />
 
 ## 1.3 Programminglanguages used in the project:
