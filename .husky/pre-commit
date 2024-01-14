@@ -6,3 +6,4 @@ npx manypkg check
 npx stylelint "**/*.scss"
 yarn format
 rm -rf node_modules
+git add -A
