@@ -1,4 +1,4 @@
-FROM node:21.6.1-bullseye-slim
+FROM node:21.6.1-bookworm-slim
 WORKDIR /var/www/html
 COPY . .
 RUN npm i -g live-server
