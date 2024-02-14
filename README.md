@@ -7,7 +7,7 @@
 [Demo](https://fadihanna123.github.io/DatahjalpProjekt/)
 
 ## 🚀 Quick Start
-<img src="https://ray.so/W2b8cJ4" />
+![image](https://github.com/fadihanna123/DatahjalpProjekt/assets/54924938/2820df8c-6cf1-483a-b418-4a722b334eab)
 ```sh
 # Clone the project
 git clone https://github.com/fadihanna123/DatahjalpProjekt.git
