@@ -8,20 +8,10 @@
 
 ## 🚀 Quick Start
 ![image](https://github.com/fadihanna123/DatahjalpProjekt/assets/54924938/65c1d37a-a0d0-46a6-bac9-32078779077e)
-```sh
-# Clone the project
-git clone https://github.com/fadihanna123/DatahjalpProjekt.git
-```
+![image](https://github.com/fadihanna123/DatahjalpProjekt/assets/54924938/84cdc6ec-a4e1-47d7-8450-a0075c0efd04)
+![image](https://github.com/fadihanna123/DatahjalpProjekt/assets/54924938/b56a4c87-4989-48c4-8c85-82eec80b0616)
+![image](https://github.com/fadihanna123/DatahjalpProjekt/assets/54924938/edd11908-ba15-40d5-99e3-8ea5343606b9)
 
-```sh
-# Go to the directory
-cd DatahjalpProjekt
-```
-
-```sh
-# Install dependencies
-yarn
-```
 
 ```sh
 # Start the server
