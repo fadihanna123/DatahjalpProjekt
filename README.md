@@ -7,6 +7,7 @@
 [Demo](https://fadihanna123.github.io/DatahjalpProjekt/)
 
 ## 🚀 Quick Start
+<img src="blob:https://carbon.now.sh/8b2e4e92-ede8-4d3a-a9bb-a7975b89aaa0">
 ```sh
 # Clone the project
 git clone https://github.com/fadihanna123/DatahjalpProjekt.git
