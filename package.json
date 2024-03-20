@@ -18,7 +18,9 @@
   "scripts": {
     "dev": "live-server .",
     "lint": "eslint .",
-    "format": "prettier -w ."
+    "format": "prettier -w .",
+    "setup": "yarn",
+    "clear": "rimraf node_modules"
   },
   "engines": {
     "node": ">=16.0.0 <=21.x.x",
