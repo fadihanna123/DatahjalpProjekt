@@ -1,4 +1,7 @@
-.vscode/launch.json
+# Vscode
+launch.json
+
+# Dependencies
 node_modules
 
 # Docker
