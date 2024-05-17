@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@manypkg/cli": "^0.21.4",
-    "eslint": "^9.2.0",
+    "eslint": "^9.3.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-editorconfig": "^4.0.3",
     "husky": "^9.0.11",
