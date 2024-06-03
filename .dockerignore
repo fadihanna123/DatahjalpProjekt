@@ -1,6 +1,7 @@
 # Git
 
 .git
+.gitignore
 
 # Dependencies
 
@@ -17,3 +18,12 @@ Dockerfile
 # License
 
 LICENSE
+
+# Vscode
+
+.vscode
+
+# Linting
+
+.eslintrc.js
+.stylelintrc.json
