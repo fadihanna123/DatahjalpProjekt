@@ -20,15 +20,15 @@
     "lint": "eslint .",
     "format": "prettier -w .",
     "setup": "yarn",
-    "clear": "rimraf node_modules"
+    "clear": "rimraf node_modules",
+    "prepare": "husky"
   },
   "engines": {
     "node": ">=16.0.0 <=21.x.x",
     "npm": "Please use Yarn instead of NPM to install dependencies"
   },
   "dependencies": {
-    "@manypkg/cli": "^0.21.4",
-    "eslint": "^9.4.0",
+    "eslint": "9.x",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-editorconfig": "^4.0.3",
     "husky": "^9.0.11",
@@ -41,5 +41,10 @@
   },
   "config": {
     "port": 3000
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.4.0",
+    "eslint-plugin-html": "^8.1.1",
+    "globals": "^15.3.0"
   }
 }

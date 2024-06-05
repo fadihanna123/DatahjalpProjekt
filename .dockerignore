@@ -25,5 +25,5 @@ LICENSE
 
 # Linting
 
-.eslintrc.js
+eslint.config.mjs
 .stylelintrc.json
