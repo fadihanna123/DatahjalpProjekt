@@ -1,3 +1,5 @@
+git fetch && git fetch --all && git fetch --prune && git pull
+git pull origin master
 yarn
 yarn lint
 yarn format
