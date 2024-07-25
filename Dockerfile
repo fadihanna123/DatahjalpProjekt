@@ -3,7 +3,7 @@ RUN adduser -D -g '' fadi
 WORKDIR /var/www/html
 COPY yarn.lock package.json ./
 ENV NODE_ENV production
-RUN npm i --silent -g live-server
+RUN npm i --silent --ignore-scripts -g live-server
 RUN yarn --silent --production
 COPY . .
 USER fadi
