@@ -4,7 +4,7 @@
 
 <br />
 
-[Demo](https://fadihanna123.github.io/DatahjalpProjekt/)
+[Website](https://fadihanna123.github.io/DatahjalpProjekt/)
 
 ## 🚀 Quick Start
 ```sh
