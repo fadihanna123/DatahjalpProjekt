@@ -35,9 +35,7 @@
     "postcss": "^8.4.47",
     "prettier": "^3.3.3",
     "stylelint": "^16.9.0",
-    "stylelint-config-standard": "^36.0.1",
-    "stylelint-config-standard-scss": "^13.1.0",
-    "stylelint-scss": "^6.6.0"
+    "stylelint-config-standard": "^36.0.1"
   },
   "config": {
     "port": 3000
