@@ -19,7 +19,7 @@
     "dev": "live-server .",
     "lint": "eslint .",
     "format": "prettier -w .",
-    "setup": "yarn --silent",
+    "setup": "yarn --emoji --silent --ignore-scripts --production",
     "clear": "rimraf node_modules",
     "prepare": "husky"
   },

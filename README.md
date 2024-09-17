@@ -19,13 +19,12 @@ cd DatahjalpProjekt
 
 ```sh
 # Install dependencies
-yarn
+yarn setup
 ```
 
 ```sh
 # Start the server
 yarn dev
-# Go to http://localhost:3000
 ```
 
 ## Usage
