@@ -17,7 +17,7 @@
   },
   "scripts": {
     "dev": "live-server .",
-    "lint": "eslint . && npx stylelint css/*.css",
+    "lint": "eslint . && npx stylelint **/*.css",
     "format": "prettier -w .",
     "setup": "yarn --emoji --silent --ignore-scripts --production",
     "clear": "rimraf node_modules",
