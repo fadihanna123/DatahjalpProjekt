@@ -1,6 +1,5 @@
 node_modules/*
 README.md
 AUTHORS
-css/
 yarn.lock
 .dockerignore

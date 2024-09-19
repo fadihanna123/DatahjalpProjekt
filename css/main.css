@@ -1,8 +1,9 @@
 @charset "UTF-8";
+
 /* Styles created by Fadi Hanna */
 #container {
+  /* Font list of which fonts browsers should use */
   font-family: "Times New Roman", times, serif;
-  /* Typsnittlista på vilka typsnitt webbläsare ska använda */
   margin: 10px;
   transition: 0.3s;
 }
@@ -12,23 +13,25 @@ label {
 }
 
 textarea :focus,
-input[type=text]:focus,
-input[type=password]:focus,
-input[type=datetime]:focus,
-input[type=datetime-local]:focus,
-input[type=date]:focus,
-input[type=month]:focus,
-input[type=time]:focus,
-input[type=week]:focus,
-input[type=number]:focus,
-input[type=email]:focus,
-input[type=url]:focus,
-input[type=search]:focus,
-input[type=tel]:focus,
-input[type=color]:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
 .uneditable-input:focus {
   border-color: #0275d8;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #add8e6;
+  box-shadow:
+    0 1px 1px rgba(0 0 0 7.5%) inset,
+    0 0 8px #add8e6;
   outline: 0 none;
   transition: 0.3s;
 }
@@ -39,8 +42,8 @@ input[type=color]:focus,
 }
 
 .main {
+  /* Make text size 20px */
   font-size: 20px;
-  /* Gör textstorlek till 20px */
   background-color: #5bc0de;
   margin: 10px;
   text-align: center;
@@ -97,23 +100,26 @@ button {
   .myform {
     margin: 0 auto;
   }
+
   .myform .row {
     width: 50%;
     margin: 0 auto;
   }
 
   #srch {
+    /* Make the width of the search bar 180% */
     width: 180%;
-    /* Gör bredden av sökfältet till 180% */
+
+    /* Remove the round corner of the search bar */
     border-radius: 0;
-    /* Ta bort sökfältets runda hörn */
   }
 
   #srchbtn {
+    /* Remove round corner search button */
     border-radius: 0;
-    /* Ta bort sökknappens runda hörn */
   }
 }
+
 .myheading {
   font-size: 35px;
   color: #3a1627;
@@ -147,7 +153,7 @@ a {
   transition: 0.3s;
 }
 
-.competitionPriceList li {
+.competition-price-list li {
   list-style-type: disc;
   list-style-position: inside;
 }
@@ -171,10 +177,11 @@ img {
 }
 
 footer {
+  /* Make the footer white */
   background-color: #1a0000;
-  /* Gör sidfoten till vit */
+
+  /* Make the height of the text 30% */
   height: 30%;
-  /* Gör höjden av texten till 30% */
   color: #f7f7f7;
   margin: 10px;
   text-align: center;
@@ -208,6 +215,7 @@ footer {
     width: 30%;
   }
 }
+
 @media screen and (max-width: 1900px) {
   .logobild {
     width: 100%;
@@ -221,6 +229,7 @@ footer {
     flex-direction: column;
   }
 }
+
 #mainnav {
   display: -webkit-box;
   display: -ms-flex;
@@ -233,11 +242,13 @@ footer {
   text-align: center;
   transition: 0.3s all;
 }
+
 #mainnav a {
+  /* Create rounded corners around the links */
   border-radius: 10px;
-  /* Skapa runda hörn runt länkarna */
+
+  /* Add distance between links 6px */
   padding: 6px;
-  /* Lägg avstånd mellan länkarna 6px */
   background: #292b2c;
   border: 1px solid #292b2c;
   color: #f7f7f7;
@@ -254,14 +265,15 @@ footer {
     flex-direction: column;
   }
 }
-.labelCol {
+
+.label-col {
   width: 500px;
   margin-bottom: 15px;
   transition: 0.3s all;
   display: inline-block;
 }
 
-.formFieldCol {
+.form-field-col {
   width: 500px;
   margin-bottom: 15px;
   transition: 0.3s all;
@@ -282,17 +294,17 @@ footer {
 
 @media screen and (max-width: 1200px) {
   h1,
-img {
+  img {
     width: 100%;
   }
 
   #container {
+    /* Font list of which fonts browsers should use */
     font-family: "Times New Roman", times, serif;
-    /* Typsnittlista på vilka typsnitt webbläsare ska använda */
   }
 
-  .labelCol,
-.formFieldCol {
+  .label-col,
+  .form-field-col {
     width: 100%;
   }
 
@@ -302,35 +314,40 @@ img {
     flex-direction: column;
   }
 }
+
 #abouttxt {
+  /* Make text size 20px */
   font-size: 20px;
-  /* Gör textstorlek till 20px */
   margin: 10px;
   transition: 0.3s all;
 }
 
 #pricetable {
+  /* Move price table to center */
   margin: 0 auto;
-  /* Flytta pristabell till mitten */
   margin-bottom: 10px;
   width: 98%;
   padding: 10px;
   transition: 0.3s;
 }
+
 #pricetable table,
 #pricetable th,
 #pricetable tr,
 #pricetable td {
   border: 1px solid #292b2c;
+
+  /* Make the table borders collapse to a single border in the table. */
   border-collapse: collapse;
-  /* Gör att tabellgränserna ska kollapsa till en enda gräns i tabellen. */
   transition: 0.3s;
 }
+
 #pricetable td:hover {
   background: #292b2c;
   color: #fff;
   transition: 0.3s all;
 }
+
 #pricetable thead {
   border: 1px solid #292b2c;
   background: #292b2c;
