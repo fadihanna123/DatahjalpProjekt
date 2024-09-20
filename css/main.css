@@ -266,6 +266,18 @@ footer {
   }
 }
 
+@media only screen and (min-width: 390px) and (max-width: 844px) {
+  #mainnav {
+    flex-direction: column;
+  }
+
+  #mainnav li a {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
 .label-col {
   width: 500px;
   margin-bottom: 15px;
