@@ -20,7 +20,7 @@
     "lint": "eslint . && npx stylelint **/*.css",
     "format": "prettier -w .",
     "setup": "yarn --emoji --silent --ignore-scripts --production",
-    "clear": "rimraf node_modules",
+    "clear": "rimraf node_modules dist build",
     "prepare": "husky"
   },
   "engines": {
