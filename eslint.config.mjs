@@ -1,11 +1,12 @@
 import globals from 'globals';
 import pluginJs from '@eslint/js';
+import html from 'eslint-plugin-html';
 
 const config = [
   {
-    files: ['**/*.js'],
+    files: ['**/*.html'],
+    plugins: { html },
     languageOptions: { sourceType: 'script' },
-    plugins: ['html'],
   },
   { languageOptions: { globals: globals.browser } },
   pluginJs.configs.recommended,
