@@ -5,11 +5,53 @@
   /* Font list of which fonts browsers should use */
   font-family: "Times New Roman", times, serif;
   margin: 10px;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 label {
   padding: 10px 15px;
+  transition: all 0.3s;
+}
+
+select {
+  border: 1px solid #0275d8;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+textarea {
+  border: 1px solid #0275d8;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+input {
+  display: block;
+  width: 100%;
+  min-height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  transition: all 0.3s;
+}
+
+button {
+  color: #000;
+  margin-bottom: 10px;
+  padding: 10px;
+  transition: all 0.3s;
 }
 
 textarea :focus,
@@ -33,12 +75,7 @@ input[type="color"]:focus,
     0 1px 1px rgba(0 0 0 7.5%) inset,
     0 0 8px #add8e6;
   outline: 0 none;
-  transition: 0.3s;
-}
-
-.mysearchform {
-  padding: 10px;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 .main {
@@ -47,53 +84,12 @@ input[type="color"]:focus,
   background-color: #5bc0de;
   margin: 10px;
   text-align: center;
-  transition: 0.3s;
-}
-
-select {
-  border: 1px solid #0275d8;
-  border-radius: 3px;
-  padding: 10px;
-  margin-bottom: 10px;
-  width: 100%;
-  transition: 0.3s;
-}
-
-textarea {
-  border: 1px solid #0275d8;
-  border-radius: 3px;
-  padding: 10px;
-  margin-bottom: 10px;
-  width: 100%;
-  transition: 0.3s all;
-}
-
-input {
-  display: block;
-  width: 100%;
-  min-height: calc(1.5em + 0.75rem + 2px);
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #495057;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 1px solid #ced4da;
-  appearance: none;
-  transition: 0.3s;
-}
-
-button {
-  color: #000;
-  margin-bottom: 10px;
-  padding: 10px;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 .myform {
   padding: 10px;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 @media screen and (min-width: 900px) and (max-width: 1900px) {
@@ -124,38 +120,34 @@ button {
   font-size: 35px;
   color: #3a1627;
   font-style: italic;
-  transition: 0.3s all;
+  transition: all 0.3s;
 }
 
 a {
   text-decoration: none;
+  transition: all 0.3s;
 }
 
 .footerlink {
   color: #fff;
   text-decoration: none;
+  transition: all 0.3s;
 }
 
 .line {
   margin: 10px;
-  transition: 0.3s;
-}
-
-.mytable {
-  display: -webkit-box;
-  display: -ms-flex;
-  display: flex;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 .txt {
   width: 100%;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 .competition-price-list li {
   list-style-type: disc;
   list-style-position: inside;
+  transition: all 0.3s;
 }
 
 * {
@@ -166,14 +158,14 @@ a {
   border: 0;
   outline: 0;
   list-style: none;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 img {
   width: 100%;
   max-width: 100%;
   height: auto;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 footer {
@@ -186,7 +178,7 @@ footer {
   margin: 10px;
   text-align: center;
   padding: 10px;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 .mylogo {
@@ -197,7 +189,7 @@ footer {
   -ms-flex-pack: center;
   justify-content: center;
   margin: 10px;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 .logobild {
@@ -205,7 +197,7 @@ footer {
   max-width: 100%;
   max-height: 100%;
   margin: 0 auto;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 @media screen and (min-width: 900px) and (max-width: 1900px) {
@@ -240,7 +232,7 @@ footer {
   -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
-  transition: 0.3s all;
+  transition: all 0.3s;
 }
 
 #mainnav a {
@@ -255,7 +247,7 @@ footer {
   text-decoration: none;
   margin: 5px;
   white-space: nowrap;
-  transition: 0.3s all;
+  transition: all 0.3s;
 }
 
 @media screen and (max-width: 1900px) {
@@ -276,19 +268,23 @@ footer {
     width: 100%;
     overflow: hidden;
   }
+
+  .main {
+    padding: 10px;
+  }
 }
 
 .label-col {
   width: 500px;
   margin-bottom: 15px;
-  transition: 0.3s all;
+  transition: all 0.3s;
   display: inline-block;
 }
 
 .form-field-col {
   width: 500px;
   margin-bottom: 15px;
-  transition: 0.3s all;
+  transition: all 0.3s;
   display: inline-block;
 }
 
@@ -301,7 +297,7 @@ footer {
   -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 10px;
-  transition: 0.3s all;
+  transition: all 0.3s;
 }
 
 @media screen and (max-width: 1200px) {
@@ -331,7 +327,7 @@ footer {
   /* Make text size 20px */
   font-size: 20px;
   margin: 10px;
-  transition: 0.3s all;
+  transition: all 0.3s;
 }
 
 #pricetable {
@@ -340,7 +336,7 @@ footer {
   margin-bottom: 10px;
   width: 98%;
   padding: 10px;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 #pricetable table,
@@ -351,18 +347,18 @@ footer {
 
   /* Make the table borders collapse to a single border in the table. */
   border-collapse: collapse;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 #pricetable td:hover {
   background: #292b2c;
   color: #fff;
-  transition: 0.3s all;
+  transition: all 0.3s;
 }
 
 #pricetable thead {
   border: 1px solid #292b2c;
   background: #292b2c;
   color: #fff;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
