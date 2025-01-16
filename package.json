@@ -1,7 +1,7 @@
 {
   "name": "data_hjalp_projekt",
   "license": "MIT",
-  "version": "0.0.36",
+  "version": "0.0.37",
   "homepage": "http://localhost:3000",
   "bugs": {
     "url": "https://github.com/fadihanna123/DatahjalpProjekt/issues",
@@ -17,7 +17,7 @@
   },
   "scripts": {
     "dev": "live-server .",
-    "lint": "eslint . && npx stylelint **/*.css",
+    "lint": "eslint . && stylelint **/*.css",
     "format": "prettier -w .",
     "setup": "yarn --emoji --silent --ignore-scripts",
     "clear": "rimraf node_modules dist build",
@@ -28,17 +28,17 @@
     "npm": "Please use Yarn instead of NPM to install dependencies"
   },
   "dependencies": {
-    "eslint": "9.17.0",
-    "eslint-config-prettier": "^9.1.0",
+    "eslint": "9.18.0",
+    "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-editorconfig": "^4.0.3",
     "husky": "^9.1.7",
-    "postcss": "^8.4.49",
+    "postcss": "^8.5.1",
     "prettier": "^3.4.2",
-    "stylelint": "^16.12.0",
-    "stylelint-config-standard": "^36.0.1"
+    "stylelint": "^16.13.2",
+    "stylelint-config-standard": "^37.0.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.17.0",
+    "@eslint/js": "^9.18.0",
     "eslint-plugin-html": "^8.1.2",
     "globals": "^15.14.0"
   }
