@@ -17,7 +17,7 @@
   },
   "scripts": {
     "dev": "live-server .",
-    "lint": "eslint . && stylelint **/*.css",
+    "lint": "eslint . && stylelint **/*.css && htmlhint **/*.html",
     "format": "prettier -w .",
     "setup": "yarn --emoji --silent --ignore-scripts",
     "clear": "rimraf node_modules dist build",
@@ -40,6 +40,7 @@
   "devDependencies": {
     "@eslint/js": "^9.18.0",
     "eslint-plugin-html": "^8.1.2",
-    "globals": "^15.14.0"
+    "globals": "^15.14.0",
+    "htmlhint": "^1.1.4"
   }
 }
