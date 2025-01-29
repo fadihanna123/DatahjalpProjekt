@@ -16,31 +16,26 @@
     "email": "fhanna181@gmail.com"
   },
   "scripts": {
-    "dev": "live-server .",
+    "setup": "yarn --emoji --silent --ignore-scripts",
+    "dev": "serve .",
     "lint": "eslint . && stylelint **/*.css && htmlhint **/*.html",
     "format": "prettier -w .",
-    "setup": "yarn --emoji --silent --ignore-scripts",
-    "clear": "rimraf node_modules dist build",
-    "prepare": "husky"
+    "prepare": "husky",
+    "clear": "rimraf node_modules"
   },
   "engines": {
     "node": ">=16.0.0 <=22.x.x",
     "npm": "Please use Yarn instead of NPM to install dependencies"
   },
-  "dependencies": {
-    "eslint": "9.18.0",
-    "eslint-config-prettier": "^10.0.1",
-    "eslint-plugin-editorconfig": "^4.0.3",
-    "husky": "^9.1.7",
-    "postcss": "^8.5.1",
-    "prettier": "^3.4.2",
-    "stylelint": "^16.13.2",
-    "stylelint-config-standard": "^37.0.0"
-  },
   "devDependencies": {
-    "@eslint/js": "^9.18.0",
-    "eslint-plugin-html": "^8.1.2",
-    "globals": "^15.14.0",
-    "htmlhint": "^1.1.4"
+    "eslint-plugin-html": "8.1.2",
+    "globals": "15.14.0",
+    "htmlhint": "1.1.4",
+    "serve": "^14.2.4",
+    "eslint": "9.19.0",
+    "husky": "9.1.7",
+    "prettier": "3.4.2",
+    "stylelint": "16.14.1",
+    "stylelint-config-standard": "37.0.0"
   }
 }

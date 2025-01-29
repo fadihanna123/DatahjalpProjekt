@@ -1,5 +1,4 @@
 import globals from 'globals';
-import pluginJs from '@eslint/js';
 import html from 'eslint-plugin-html';
 
 const config = [
