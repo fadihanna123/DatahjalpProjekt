@@ -1,7 +1,8 @@
 {
   "name": "data_hjalp_projekt",
   "license": "MIT",
-  "version": "0.0.39",
+  "version": "0.0.40",
+  "lastUpgrade": "20250327",
   "homepage": "http://localhost:3000",
   "bugs": {
     "url": "https://github.com/fadihanna123/DatahjalpProjekt/issues",
@@ -24,19 +25,19 @@
     "clear": "rimraf ./node_modules"
   },
   "engines": {
-    "node": ">=16.0.0 <=22.x.x",
+    "node": ">=16.0.0 <=23.x.x",
     "npm": "Please use Yarn instead of NPM to install dependencies"
   },
   "devDependencies": {
-    "@html-eslint/eslint-plugin": "0.35.0",
-    "@html-eslint/parser": "0.35.0",
-    "eslint": "9.21.0",
+    "@html-eslint/eslint-plugin": "0.37.0",
+    "@html-eslint/parser": "0.37.0",
+    "eslint": "9.23.0",
     "globals": "16.0.0",
     "htmlhint": "1.1.4",
     "husky": "9.1.7",
-    "prettier": "3.5.2",
+    "prettier": "3.5.3",
     "serve": "14.2.4",
-    "stylelint": "16.15.0",
+    "stylelint": "16.17.0",
     "stylelint-config-standard": "37.0.0"
   }
 }

@@ -185,8 +185,6 @@ footer {
   display: -webkit-box;
   display: -ms-flex;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   margin: 10px;
   transition: all 0.3s;
@@ -204,7 +202,7 @@ footer {
   .mylogo {
     margin: 0 auto;
     height: 30%;
-    width: 30%;
+    width: 40%;
   }
 }
 
@@ -223,16 +221,16 @@ footer {
 }
 
 #mainnav {
-  display: -webkit-box;
-  display: -ms-flex;
-  display: flex;
+  width: 100%;
+  place-self: center;
   margin: 10px;
   background: #f7f7f7;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   text-align: center;
   transition: all 0.3s;
+}
+
+#mainnav li {
+  display: inline-block;
 }
 
 #mainnav a {
@@ -245,7 +243,7 @@ footer {
   border: 1px solid #292b2c;
   color: #f7f7f7;
   text-decoration: none;
-  margin: 5px;
+  margin: 50px;
   white-space: nowrap;
   transition: all 0.3s;
 }
@@ -258,15 +256,9 @@ footer {
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 844px) {
+@media (min-width: 320px) and (max-width: 844px) {
   #mainnav {
     flex-direction: column;
-  }
-
-  #mainnav li a {
-    display: block;
-    width: 100%;
-    overflow: hidden;
   }
 
   .main {
@@ -293,8 +285,6 @@ footer {
   display: -ms-flex;
   display: flex;
   margin: 10px;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 10px;
   transition: all 0.3s;
@@ -361,4 +351,36 @@ footer {
   background: #292b2c;
   color: #fff;
   transition: all 0.3s;
+}
+
+.topbar {
+  display: flex;
+  background: #f7f7f7;
+}
+
+.srchform {
+  margin: 10px;
+}
+
+@media (max-width: 1020px) {
+  .topbar {
+    flex-direction: column;
+  }
+
+  #mainnav li a {
+    display: block;
+    margin: 0 0 10px;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 1020px) {
+  #mainnav li a {
+    display: block;
+    margin: 35px;
+  }
+
+  .srchform {
+    margin: 0 auto;
+    width: 50%;
+  }
 }
