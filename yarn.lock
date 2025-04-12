@@ -120,10 +120,10 @@
     "@eslint/core" "^0.12.0"
     levn "^0.4.1"
 
-"@html-eslint/eslint-plugin@0.38.0":
-  version "0.38.0"
-  resolved "https://registry.yarnpkg.com/@html-eslint/eslint-plugin/-/eslint-plugin-0.38.0.tgz#82995e7ec85f520f4e70009b14987b3aec4d4967"
-  integrity sha512-7GbBg7lPjWgCuLjGArxLpuXm8ZPJuL02QklT+OpMVrzK8RSJNhFZRiZWRa7Iw6GFw2Sfr/9foIgpeUGhx8hEJw==
+"@html-eslint/eslint-plugin@0.38.1":
+  version "0.38.1"
+  resolved "https://registry.yarnpkg.com/@html-eslint/eslint-plugin/-/eslint-plugin-0.38.1.tgz#7d39271e955a04979d5ccbe489663670de3351eb"
+  integrity sha512-o2i9TtcaBl6tJpR8LYxj9OsVe5x10/PJWk66Cgg64hJKhGsITos+ALgaCxSxhnDL+cHXC+FnSoR/xf2zVTzcOQ==
   dependencies:
     "@html-eslint/template-parser" "^0.38.0"
     "@html-eslint/template-syntax-parser" "^0.38.0"
