@@ -3,3 +3,6 @@ launch.json
 
 # Dependencies
 node_modules
+
+# Macos
+.DS_Store
