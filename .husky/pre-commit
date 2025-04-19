@@ -1,0 +1,2 @@
+yarn --silent --emoji --ignore-scripts
+rm -rf node_modules
