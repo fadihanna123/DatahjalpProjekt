@@ -29,7 +29,7 @@
     "npm": "Please use Yarn instead of NPM to install dependencies"
   },
   "devDependencies": {
-    "@html-eslint/eslint-plugin": "0.40.0",
+    "@html-eslint/eslint-plugin": "0.40.3",
     "@html-eslint/parser": "0.40.0",
     "eslint": "9.26.0",
     "globals": "16.0.0",

@@ -120,16 +120,17 @@
     "@eslint/core" "^0.13.0"
     levn "^0.4.1"
 
-"@html-eslint/eslint-plugin@0.40.0":
-  version "0.40.0"
-  resolved "https://registry.yarnpkg.com/@html-eslint/eslint-plugin/-/eslint-plugin-0.40.0.tgz#2da508af0e4ae899d5560464b0e91ef38feac43b"
-  integrity sha512-KzrNQpbVbQ621BzW8HiVOiY/JqC72evoZaXh2oYx1SZO6c7CDEb9sDbEyHg0ImdEoi6PghY6myY4qf+il31DzQ==
+"@html-eslint/eslint-plugin@0.40.3":
+  version "0.40.3"
+  resolved "https://registry.yarnpkg.com/@html-eslint/eslint-plugin/-/eslint-plugin-0.40.3.tgz#38e5db5d7b1de7de878276d8c4a940c0a1ffd8fd"
+  integrity sha512-ju0BTpo60/NOqh2VIQzBz2d+cekzmvqJZ2BHFRfg3oDQqWzp8nIrgNiKws0ILfs82su/w4zZBqKtMMQp4WvsvQ==
   dependencies:
     "@eslint/plugin-kit" "0.2.8"
+    "@html-eslint/parser" "^0.40.0"
     "@html-eslint/template-parser" "^0.40.0"
     "@html-eslint/template-syntax-parser" "^0.40.0"
 
-"@html-eslint/parser@0.40.0":
+"@html-eslint/parser@0.40.0", "@html-eslint/parser@^0.40.0":
   version "0.40.0"
   resolved "https://registry.yarnpkg.com/@html-eslint/parser/-/parser-0.40.0.tgz#0ef8c3a254a2610897e5afd776bca6c7ca81359e"
   integrity sha512-xvySQLPogafK2aTOPBD6V7+4qpr1AnOZXO8zM2z0b4i3BB9ISk5PTWu5+ofOekKxjxUh7Z+QWaoezu1SIi33YA==
