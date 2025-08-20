@@ -130,7 +130,15 @@
     "@html-eslint/template-parser" "^0.41.0"
     "@html-eslint/template-syntax-parser" "^0.41.0"
 
-"@html-eslint/parser@0.41.0", "@html-eslint/parser@^0.41.0":
+"@html-eslint/parser@0.45.0":
+  version "0.45.0"
+  resolved "https://registry.yarnpkg.com/@html-eslint/parser/-/parser-0.45.0.tgz#19984928ee0df818f11bc455d8d60a7807a0d956"
+  integrity sha512-dGU0IMzQTe85xk1Eqqv8H1q/JOM/yVIb4qnwCs2T/indTDUeVkQgzC0UoMoGk4yxu8rpFe2ppDZjH5E90LHzDg==
+  dependencies:
+    "@html-eslint/template-syntax-parser" "^0.45.0"
+    es-html-parser "0.3.0"
+
+"@html-eslint/parser@^0.41.0":
   version "0.41.0"
   resolved "https://registry.yarnpkg.com/@html-eslint/parser/-/parser-0.41.0.tgz#57a3ee513f75f252557695b11e149ea72fdd358b"
   integrity sha512-QQJeq2G11T/SGYcG09+XOajm+X8XX6bVVSouB3SVlGmm3exvJis0B6tBnb+5Rz2kC/q3C21z1ZuCc/AXcFKzIA==
@@ -149,6 +157,11 @@
   version "0.41.0"
   resolved "https://registry.yarnpkg.com/@html-eslint/template-syntax-parser/-/template-syntax-parser-0.41.0.tgz#b1e13ffbb83f3047ab758745b2e2dd8e1ba7f122"
   integrity sha512-dgiE30uXWCoD89chi6KdjYOF+143bImJ3GNl3j2iy6/ZM8enTqCQVHZ48+Esf6Tx2rLBBBdxx4Rb0fG11myHsw==
+
+"@html-eslint/template-syntax-parser@^0.45.0":
+  version "0.45.0"
+  resolved "https://registry.yarnpkg.com/@html-eslint/template-syntax-parser/-/template-syntax-parser-0.45.0.tgz#f5f360aa465803c55b2e19d77138e8693ff08d76"
+  integrity sha512-yQcvaaZvHBCyt0zNNTDjVsgas1doC1MBaAVHREUbmnRrX3LnEPsGoaU3OBj65ydeX+I2JQBNKAKMwiDTMR6yFA==
 
 "@humanfs/core@^0.19.1":
   version "0.19.1"
@@ -635,6 +648,11 @@ es-html-parser@0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/es-html-parser/-/es-html-parser-0.2.0.tgz#da9f64aff1288e712371e36f147b157609686c9f"
   integrity sha512-snJ7uJC8Dkx/yT0eYZrWcY57rkPU6Zui6YphPynw8r52AWf57gjqMC0GWe7OxSDipwXowFpa3rqckEeAPTOz7w==
+
+es-html-parser@0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/es-html-parser/-/es-html-parser-0.3.0.tgz#a5b7b72fd094944112d8b5530005726100f325a4"
+  integrity sha512-86KsmbP/zqoG7LIoXiCXv7KFDVbF9N9SCpavmRzeKtCODmF+LyLEBt3UPSlcntNQEwGGe0xn4ZED186rLmwKSw==
 
 escape-string-regexp@^1.0.5:
   version "1.0.5"
