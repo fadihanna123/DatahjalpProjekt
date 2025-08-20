@@ -120,17 +120,17 @@
     "@eslint/core" "^0.14.0"
     levn "^0.4.1"
 
-"@html-eslint/eslint-plugin@0.41.0":
-  version "0.41.0"
-  resolved "https://registry.yarnpkg.com/@html-eslint/eslint-plugin/-/eslint-plugin-0.41.0.tgz#89ba63b7cf9dd466cf4871776de59fc3d465ccce"
-  integrity sha512-kZhOdLOx5xGogw9CE/uGKkoo8t7fNK9PxU6kosIvu9Yveir3r2VhGYC4II/2OEGQ+O4cPk2LxV1fCpYt7XFMtQ==
+"@html-eslint/eslint-plugin@0.45.0":
+  version "0.45.0"
+  resolved "https://registry.yarnpkg.com/@html-eslint/eslint-plugin/-/eslint-plugin-0.45.0.tgz#43ee3604f73df1207e86edd378fc6bbc82a8aa45"
+  integrity sha512-FpECVjHYBOcCwFXffb7lPG2gGnzXMYPxyDrn2hSmkFn6NwZeh9Pda9RSCGuDzYDa+wKcXALkv0PlyHcx1DOEeg==
   dependencies:
     "@eslint/plugin-kit" "^0.3.1"
-    "@html-eslint/parser" "^0.41.0"
-    "@html-eslint/template-parser" "^0.41.0"
-    "@html-eslint/template-syntax-parser" "^0.41.0"
+    "@html-eslint/parser" "^0.45.0"
+    "@html-eslint/template-parser" "^0.45.0"
+    "@html-eslint/template-syntax-parser" "^0.45.0"
 
-"@html-eslint/parser@0.41.0", "@html-eslint/parser@^0.41.0":
+"@html-eslint/parser@0.41.0":
   version "0.41.0"
   resolved "https://registry.yarnpkg.com/@html-eslint/parser/-/parser-0.41.0.tgz#57a3ee513f75f252557695b11e149ea72fdd358b"
   integrity sha512-QQJeq2G11T/SGYcG09+XOajm+X8XX6bVVSouB3SVlGmm3exvJis0B6tBnb+5Rz2kC/q3C21z1ZuCc/AXcFKzIA==
@@ -138,17 +138,30 @@
     "@html-eslint/template-syntax-parser" "^0.41.0"
     es-html-parser "0.2.0"
 
-"@html-eslint/template-parser@^0.41.0":
-  version "0.41.0"
-  resolved "https://registry.yarnpkg.com/@html-eslint/template-parser/-/template-parser-0.41.0.tgz#26da3cf63d214a7f45abafed7d30c3d4849393e9"
-  integrity sha512-ntZNMh+G13lPvwSSkr2U0XqWWDFLSZPeidcztgVCjxthwgSMdefL4au/YicnlB+h1WNBw8Pk0bAjczJXEbp85g==
+"@html-eslint/parser@^0.45.0":
+  version "0.45.0"
+  resolved "https://registry.yarnpkg.com/@html-eslint/parser/-/parser-0.45.0.tgz#19984928ee0df818f11bc455d8d60a7807a0d956"
+  integrity sha512-dGU0IMzQTe85xk1Eqqv8H1q/JOM/yVIb4qnwCs2T/indTDUeVkQgzC0UoMoGk4yxu8rpFe2ppDZjH5E90LHzDg==
   dependencies:
-    es-html-parser "0.2.0"
+    "@html-eslint/template-syntax-parser" "^0.45.0"
+    es-html-parser "0.3.0"
+
+"@html-eslint/template-parser@^0.45.0":
+  version "0.45.0"
+  resolved "https://registry.yarnpkg.com/@html-eslint/template-parser/-/template-parser-0.45.0.tgz#cbb85e7b3f39b031966d17c9aa658fb3bc6c79f9"
+  integrity sha512-YVkFkgBTqT5hW+QWZRGrw2A9ySY04g1Ms+CtDc4TvxHnI2Kh/DUeIYJ2qC0FDgqSuhx74UBdfQLUArWdXLX1Pg==
+  dependencies:
+    es-html-parser "0.3.0"
 
 "@html-eslint/template-syntax-parser@^0.41.0":
   version "0.41.0"
   resolved "https://registry.yarnpkg.com/@html-eslint/template-syntax-parser/-/template-syntax-parser-0.41.0.tgz#b1e13ffbb83f3047ab758745b2e2dd8e1ba7f122"
   integrity sha512-dgiE30uXWCoD89chi6KdjYOF+143bImJ3GNl3j2iy6/ZM8enTqCQVHZ48+Esf6Tx2rLBBBdxx4Rb0fG11myHsw==
+
+"@html-eslint/template-syntax-parser@^0.45.0":
+  version "0.45.0"
+  resolved "https://registry.yarnpkg.com/@html-eslint/template-syntax-parser/-/template-syntax-parser-0.45.0.tgz#f5f360aa465803c55b2e19d77138e8693ff08d76"
+  integrity sha512-yQcvaaZvHBCyt0zNNTDjVsgas1doC1MBaAVHREUbmnRrX3LnEPsGoaU3OBj65ydeX+I2JQBNKAKMwiDTMR6yFA==
 
 "@humanfs/core@^0.19.1":
   version "0.19.1"
@@ -635,6 +648,11 @@ es-html-parser@0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/es-html-parser/-/es-html-parser-0.2.0.tgz#da9f64aff1288e712371e36f147b157609686c9f"
   integrity sha512-snJ7uJC8Dkx/yT0eYZrWcY57rkPU6Zui6YphPynw8r52AWf57gjqMC0GWe7OxSDipwXowFpa3rqckEeAPTOz7w==
+
+es-html-parser@0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/es-html-parser/-/es-html-parser-0.3.0.tgz#a5b7b72fd094944112d8b5530005726100f325a4"
+  integrity sha512-86KsmbP/zqoG7LIoXiCXv7KFDVbF9N9SCpavmRzeKtCODmF+LyLEBt3UPSlcntNQEwGGe0xn4ZED186rLmwKSw==
 
 escape-string-regexp@^1.0.5:
   version "1.0.5"
