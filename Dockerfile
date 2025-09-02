@@ -1,4 +1,4 @@
-FROM node:22.14.0-alpine3.20
+FROM node:22.19.0-alpine
 RUN adduser -D -g '' fadi
 WORKDIR /var/www/html
 COPY yarn.lock package.json ./
