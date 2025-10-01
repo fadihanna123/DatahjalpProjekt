@@ -72,7 +72,7 @@ input[type="color"]:focus,
 .uneditable-input:focus {
   border-color: #0275d8;
   box-shadow:
-    0 1px 1px rgba(0 0 0 7.5%) inset,
+    0 1px 1px rgb(0 0 0 7.5%) inset,
     0 0 8px #add8e6;
   outline: 0 none;
   transition: all 0.3s;
@@ -215,7 +215,6 @@ footer {
 
   .mylogo {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     flex-direction: column;
   }
 }
@@ -251,7 +250,6 @@ footer {
 @media screen and (max-width: 1900px) {
   #mainnav li {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     flex-direction: column;
   }
 }
@@ -308,7 +306,6 @@ footer {
 
   .row {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     flex-direction: column;
   }
 }
