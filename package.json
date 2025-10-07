@@ -1,8 +1,8 @@
 {
   "name": "data_hjalp_projekt",
   "license": "MIT",
-  "version": "0.0.45",
-  "lastUpgrade": "20250930",
+  "version": "0.0.46",
+  "lastUpgrade": "20251007",
   "homepage": "http://localhost:3000",
   "bugs": {
     "url": "https://github.com/fadihanna123/DatahjalpProjekt/issues",
@@ -31,13 +31,13 @@
   "devDependencies": {
     "@html-eslint/eslint-plugin": "0.47.0",
     "@html-eslint/parser": "0.47.0",
-    "eslint": "9.36.0",
+    "eslint": "9.37.0",
     "globals": "16.4.0",
     "htmlhint": "1.7.1",
     "husky": "9.1.7",
     "prettier": "3.6.2",
     "serve": "14.2.5",
-    "stylelint": "16.24.0",
-    "stylelint-config-standard": "39.0.0"
+    "stylelint": "16.25.0",
+    "stylelint-config-standard": "39.0.1"
   }
 }
