@@ -77,7 +77,3 @@ Contributions are welcome! Please follow these steps:
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Demo
-
-- Website: [https://fadihanna123.github.io/DatahjalpProjekt/](https://fadihanna123.github.io/DatahjalpProjekt/)
