@@ -13,7 +13,7 @@
     <meta name="keywords" content="Datahjalp, projekt, hjälp" />
     <meta
       name="description"
-      content="Datahjalp projekt hjälper dig att laga dina datorer."
+      content="Tävling-sida erbjuder en tävling och vinna en mobil och datareparationer"
     />
     <link
       rel="apple-touch-icon"
@@ -52,60 +52,7 @@
     </div>
 
     <div id="container">
-      <header>
-        <div class="mylogo">
-          <a href="index.html" title="Länk till logo">
-            <img
-              src="assets/images/logo.jpg"
-              class="logobild"
-              alt="Sidans logo"
-              title="Datahjälp logo"
-              width="600"
-              height="600"
-              aria-label="Sidans logo"
-              loading="lazy"
-            />
-          </a>
-        </div>
-        <div class="topbar">
-          <ul id="mainnav">
-            <li>
-              <a href="index.html" title="Home">
-                <i class="fa-solid fa-house"></i>
-                Startsida
-              </a>
-            </li>
-            <li>
-              <a href="prices.html" title="Prices">
-                <i class="fa-solid fa-dollar-sign"></i>
-                Priser
-              </a>
-            </li>
-            <li>
-              <a href="competition.html" title="Competition">
-                <i class="fa-solid fa-sack-dollar"></i>
-                Tävling
-              </a>
-            </li>
-            <li>
-              <a href="contact.html" title="Contact">
-                <i class="fa-solid fa-phone"></i>
-                Kontakta oss
-              </a>
-            </li>
-            <li>
-              <a href="about.html" title="About">
-                <i class="fa-solid fa-user"></i>
-                Om oss
-              </a>
-            </li>
-          </ul>
-          <form class="srchform">
-            <input type="text" placeholder="Search here..." />
-          </form>
-        </div>
-        <hr class="line" />
-      </header>
+      <div id="header-placeholder"></div>
       <main class="main">
         <section>
           <!-- Skapa tävlingsinformation-->
@@ -128,7 +75,7 @@
         <form method="post" class="myform">
           <div class="row">
             <div class="label-col">
-              <label for="firsttxt">Ditt namn:*</label>
+              <label for="firsttxt"> Ditt namn:* </label>
             </div>
             <div class="form-field-col">
               <input
@@ -136,12 +83,13 @@
                 name="nametxt"
                 id="firsttxt"
                 aria-label="Namn"
+                required
               />
             </div>
           </div>
           <div class="row">
             <div class="label-col">
-              <label for="mailtxt">Din e-postadress:*</label>
+              <label for="mailtxt"> Din e-postadress:* </label>
             </div>
             <div class="form-field-col">
               <input
@@ -150,25 +98,28 @@
                 type="email"
                 name="emailtxt"
                 placeholder="user@gmail.com"
+                pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
+                required
               />
             </div>
           </div>
           <div class="row">
             <div class="label-col">
-              <label for="chooserang">Hur var ditt besök:*</label>
+              <label for="chooserang"> Hur var ditt besök:* </label>
             </div>
             <div class="form-field-col">
-              <select id="chooserang" name="rank">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-                <option>6</option>
-                <option>7</option>
-                <option>8</option>
-                <option>9</option>
-                <option>10</option>
+              <select id="chooserang" name="rank" required>
+                <option value="">---</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
               </select>
             </div>
           </div>
@@ -179,40 +130,28 @@
               </label>
             </div>
             <div class="form-field-col">
-              <textarea cols="50" id="whytxt" rows="4" name="whytxt"></textarea>
+              <textarea
+                cols="50"
+                id="whytxt"
+                rows="4"
+                name="whytxt"
+                required
+              ></textarea>
             </div>
           </div>
           <div class="row">
             <div class="label-col">
-              <label for="other">Övriga frågor/kommentarer:</label>
+              <label for="other"> Övriga frågor/kommentarer: </label>
             </div>
             <div class="form-field-col">
               <textarea id="other" cols="50" rows="5" name="other"></textarea>
             </div>
           </div>
-          <button aria-label="Skicka" type="button">Skicka</button>
+          <input aria-label="Skicka" type="submit" value="Skicka" />
         </form>
       </main>
     </div>
-    <hr class="line" />
-    <footer>
-      <p class="lead">Datahjälp AB</p>
-      <address>Adress: Ringvägen 5, Stockholm.</address>
-      <br />
-      <p class="lead">
-        E-postadress:
-        <a class="footerlink" href="mailto:datahjalpab@hotmail.com">
-          datahjalpab@hotmail.com
-        </a>
-        <br />
-        Telefonnummer:
-        <a class="footerlink" href="tel:084751014"> 08-4751014 </a>
-        <br />
-        Mobilnummer:
-        <a class="footerlink" href="tel:0735798048"> 073-5798048 </a>
-        <br />
-      </p>
-    </footer>
+    <div id="footer-placeholder"></div>
     <script src="./main.js"></script>
   </body>
 </html>

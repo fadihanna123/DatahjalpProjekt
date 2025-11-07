@@ -13,7 +13,7 @@
     <meta name="keywords" content="Datahjalp, projekt, hjälp" />
     <meta
       name="description"
-      content="Datahjalp projekt hjälper dig att laga dina datorer."
+      content="Kontakt-sida har en formulär för att kontakta oss."
     />
 
     <link
@@ -44,10 +44,7 @@
       src="https://www.googletagmanager.com/gtag/js?id=G-TYYFG6B27M"
     ></script>
     <link rel="stylesheet" href="css/main.css" type="text/css" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Datahjälp - Kontakta oss</title>
   </head>
 
@@ -57,60 +54,7 @@
     </div>
 
     <div id="container">
-      <header>
-        <div class="mylogo">
-          <a href="index.html" title="Länk till logo">
-            <img
-              src="assets/images/logo.jpg"
-              class="logobild"
-              alt="Sidans logo"
-              title="Datahjälp logo"
-              width="600"
-              height="600"
-              aria-label="Sidans logo"
-              loading="lazy"
-            />
-          </a>
-        </div>
-        <div class="topbar">
-          <ul id="mainnav">
-            <li>
-              <a href="index.html" title="Home">
-                <i class="fa-solid fa-house"></i>
-                Startsida
-              </a>
-            </li>
-            <li>
-              <a href="prices.html" title="Prices">
-                <i class="fa-solid fa-dollar-sign"></i>
-                Priser
-              </a>
-            </li>
-            <li>
-              <a href="competition.html" title="Competition">
-                <i class="fa-solid fa-sack-dollar"></i>
-                Tävling
-              </a>
-            </li>
-            <li>
-              <a href="contact.html" title="Contact">
-                <i class="fa-solid fa-phone"></i>
-                Kontakta oss
-              </a>
-            </li>
-            <li>
-              <a href="about.html" title="About">
-                <i class="fa-solid fa-user"></i>
-                Om oss
-              </a>
-            </li>
-          </ul>
-          <form class="srchform">
-            <input type="text" placeholder="Search here..." />
-          </form>
-        </div>
-        <hr class="line" />
-      </header>
+      <div id="header-placeholder"></div>
       <div class="main">
         <!-- Skapa tävlingsinformation-->
         <h1 class="myheading">Kontakta oss</h1>
@@ -124,7 +68,7 @@
         <form method="post" class="myform">
           <div class="row">
             <div class="label-col">
-              <label for="nametxt">Ditt namn:*</label>
+              <label for="nametxt"> Ditt namn:* </label>
             </div>
             <div class="form-field-col">
               <input
@@ -132,12 +76,13 @@
                 type="text"
                 name="nametxt"
                 id="nametxt"
+                required
               />
             </div>
           </div>
           <div class="row">
             <div class="label-col">
-              <label for="mail">Din e-postadress:*</label>
+              <label for="mail"> Din e-postadress:* </label>
             </div>
             <div class="form-field-col">
               <input
@@ -145,31 +90,34 @@
                 id="mail"
                 type="email"
                 name="emailtxt"
+                pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
+                required
               />
             </div>
           </div>
           <div class="row">
             <div class="label-col">
-              <label for="rang">Hur var ditt besök:*</label>
+              <label for="rang"> Hur var ditt besök:* </label>
             </div>
             <div class="form-field-col">
-              <select id="rang" name="rang">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-                <option>6</option>
-                <option>7</option>
-                <option>8</option>
-                <option>9</option>
-                <option>10</option>
+              <select id="rang" name="rang" required>
+                <option value="">---</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
               </select>
             </div>
           </div>
           <div class="row">
             <div class="label-col">
-              <label for="othertxt">Meddelande</label>
+              <label for="othertxt"> Meddelande: </label>
             </div>
             <div class="form-field-col">
               <textarea
@@ -180,29 +128,11 @@
               ></textarea>
             </div>
           </div>
-          <button type="button" aria-label="Skicka">Skicka</button>
+          <input type="submit" aria-label="Skicka" value="Skicka" />
         </form>
       </div>
     </div>
-    <hr class="line" />
-    <footer>
-      <p class="lead">Datahjälp AB</p>
-      <address>Adress: Ringvägen 5, Stockholm.</address>
-      <br />
-      <p class="lead">
-        E-postadress:
-        <a class="footerlink" href="mailto:datahjalpab@hotmail.com">
-          datahjalpab@hotmail.com
-        </a>
-        <br />
-        Telefonnummer:
-        <a class="footerlink" href="tel:084751014"> 08-4751014 </a>
-        <br />
-        Mobilnummer:
-        <a class="footerlink" href="tel:0735798048"> 073-5798048 </a>
-        <br />
-      </p>
-    </footer>
+    <div id="footer-placeholder"></div>
     <script src="./main.js"></script>
   </body>
 </html>
