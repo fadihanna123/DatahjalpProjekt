@@ -9,6 +9,11 @@
   transition: all 0.3s;
 }
 
+#mobile_navmenu {
+  display: none;
+  width: 100%;
+}
+
 #pageLoading {
   display: flex;
   justify-content: center;
@@ -393,5 +398,17 @@ footer {
   .srchform {
     margin: 0 auto;
     width: 50%;
+  }
+}
+
+@media (max-width: 1020px) {
+  #mobile_navmenu {
+    display: block;
+    margin: 10px;
+    width: 95%;
+  }
+
+  #mainnav {
+    display: none;
   }
 }

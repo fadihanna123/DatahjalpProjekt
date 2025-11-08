@@ -10,18 +10,28 @@ const initPage = async () => {
   setTimeout(() => {
     pageLoadingEl.style.display = 'none';
     containerEl.style.display = 'block';
+
+    const mobileNavMenu = document.getElementById('mobile_navmenu');
+
+    if (mobileNavMenu) {
+      mobileNavMenu.value = window.location.pathname
+        .replace('/', '')
+        .replace('.html', '');
+      mobileNavMenu.addEventListener('change', (e) => navigateSelectedMenu(e));
+    }
   }, 500);
 };
 
 window.dataLayer = window.dataLayer || [];
+
 function gtag() {
   dataLayer.push(arguments);
 }
+
 gtag('js', new Date());
 
 gtag('config', 'G-TYYFG6B27M');
 
-// Function to load HTML into an element
 const loadHTML = async (file, elementId) => {
   try {
     const response = await fetch(file);
@@ -33,4 +43,10 @@ const loadHTML = async (file, elementId) => {
   } catch (error) {
     console.error(`Error loading ${file}:`, error);
   }
+};
+
+const navigateSelectedMenu = (e) => {
+  const optionVal = e.target.value;
+
+  window.location.href = `${optionVal}.html`;
 };
