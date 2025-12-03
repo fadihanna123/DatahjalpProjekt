@@ -32,7 +32,7 @@
     "@html-eslint/eslint-plugin": "0.50.0",
     "@html-eslint/parser": "0.47.0",
     "eslint": "9.37.0",
-    "globals": "16.4.0",
+    "globals": "16.5.0",
     "htmlhint": "1.8.0",
     "husky": "9.1.7",
     "prettier": "3.7.3",
