@@ -1,8 +1,8 @@
 {
   "name": "data_hjalp_projekt",
   "license": "MIT",
-  "version": "0.0.46",
-  "lastUpgrade": "20251007",
+  "version": "0.0.47",
+  "lastUpgrade": "20251221",
   "homepage": "http://localhost:3000",
   "bugs": {
     "url": "https://github.com/fadihanna123/DatahjalpProjekt/issues",
@@ -18,26 +18,25 @@
   },
   "scripts": {
     "setup": "yarn --silent --emoji --ignore-scripts --immutable",
-    "dev": "serve ./",
+    "dev": "live-server ./",
     "lint": "eslint ./ && stylelint **/*.css && htmlhint **/*.html",
     "format": "prettier -w ./",
     "prepare": "husky",
     "clear": "rimraf ./node_modules"
   },
   "engines": {
-    "node": ">=16.0.0 <=23.x.x",
+    "node": ">=16.0.0 <=24.x.x",
     "npm": "Please use Yarn instead of NPM to install dependencies"
   },
   "devDependencies": {
-    "@html-eslint/eslint-plugin": "0.50.0",
-    "@html-eslint/parser": "0.47.0",
-    "eslint": "9.37.0",
-    "globals": "16.4.0",
+    "@html-eslint/eslint-plugin": "0.52.0",
+    "@html-eslint/parser": "0.52.0",
+    "eslint": "9.39.2",
+    "globals": "16.5.0",
     "htmlhint": "1.8.0",
     "husky": "9.1.7",
-    "prettier": "3.7.3",
-    "serve": "14.2.5",
-    "stylelint": "16.25.0",
+    "prettier": "3.7.4",
+    "stylelint": "16.26.1",
     "stylelint-config-standard": "39.0.1"
   }
 }

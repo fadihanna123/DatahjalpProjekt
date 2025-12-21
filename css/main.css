@@ -14,6 +14,10 @@
   width: 100%;
 }
 
+.aboutcontactinformation {
+  line-height: 2;
+}
+
 #pageLoading {
   display: flex;
   justify-content: center;
@@ -92,12 +96,20 @@ input[type="email"] {
 }
 
 input[type="submit"] {
-  color: #000;
+  color: #fff;
   margin-bottom: 10px;
   padding: 10px;
+  background-color: #0275d8;
+  cursor: pointer;
+  border-radius: 3px;
 }
 
-textarea :focus,
+input[type="submit"]:hover {
+  background-color: green;
+  box-shadow: #0275d8 0 0 10px;
+}
+
+textarea:focus,
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="datetime"]:focus,
@@ -111,12 +123,9 @@ input[type="email"]:focus,
 input[type="url"]:focus,
 input[type="search"]:focus,
 input[type="tel"]:focus,
-input[type="color"]:focus,
-.uneditable-input:focus {
+input[type="color"]:focus {
   border-color: #0275d8;
-  box-shadow:
-    0 1px 1px rgb(0 0 0 7.5%) inset,
-    0 0 8px #add8e6;
+  box-shadow: #0275d8 0 0 10px;
   outline: 0 none;
 }
 
@@ -126,6 +135,7 @@ input[type="color"]:focus,
   background-color: #5bc0de;
   margin: 10px;
   text-align: center;
+  padding: 10px;
 }
 
 .myform {
@@ -159,6 +169,11 @@ input[type="color"]:focus,
 .myheading {
   font-size: 35px;
   color: #3a1627;
+  font-style: italic;
+}
+
+.customerheading {
+  font-size: 28px;
   font-style: italic;
 }
 
@@ -358,6 +373,20 @@ footer {
   border-collapse: collapse;
 }
 
+#reviewstable table,
+#reviewstable th,
+#reviewstable tr,
+#reviewstable td {
+  border: 1px solid #292b2c;
+  border-collapse: collapse;
+}
+
+#reviewstable thead {
+  border: 1px solid #292b2c;
+  background: #292b2c;
+  color: #fff;
+}
+
 #pricetable td:hover {
   background: #292b2c;
   color: #fff;
@@ -376,6 +405,10 @@ footer {
 
 .srchform {
   margin: 10px;
+}
+
+.srchform input {
+  padding: 10px;
 }
 
 @media (max-width: 1020px) {
