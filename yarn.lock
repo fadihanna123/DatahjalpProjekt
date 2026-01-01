@@ -150,10 +150,10 @@
     "@eslint/core" "^0.17.0"
     levn "^0.4.1"
 
-"@html-eslint/eslint-plugin@0.52.0":
-  version "0.52.0"
-  resolved "https://registry.yarnpkg.com/@html-eslint/eslint-plugin/-/eslint-plugin-0.52.0.tgz#4be9c43aca15c38218f0659bd9eb0cacb36634c2"
-  integrity sha512-ica2daHo1Aj80xw5rZK+emONUGhpIBe3KwsXQooMnkK+RBfJcuDXXqRuWb4Ra5AT5MCXVKFzkmwaF8VARuKRoQ==
+"@html-eslint/eslint-plugin@0.52.1":
+  version "0.52.1"
+  resolved "https://registry.yarnpkg.com/@html-eslint/eslint-plugin/-/eslint-plugin-0.52.1.tgz#5d35852a07de1cf16b7defe9bc24656386563c77"
+  integrity sha512-RaaSpP0hE/rYbssZZdlJjf0+CIVyWx9z/xj4KF5zHLvCeTYwJHAFb9x1/RvFRiMnWaME6ygtwMFYdHauahfvbA==
   dependencies:
     "@eslint/plugin-kit" "^0.4.1"
     "@html-eslint/parser" "^0.52.0"
