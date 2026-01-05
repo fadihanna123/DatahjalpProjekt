@@ -18,7 +18,7 @@
   },
   "scripts": {
     "setup": "yarn --silent --emoji --ignore-scripts --immutable",
-    "dev": "live-server ./",
+    "dev": "live-server ./ --open=./index.html",
     "lint": "eslint ./ && stylelint **/*.css && htmlhint **/*.html",
     "format": "prettier -w ./",
     "prepare": "husky",
