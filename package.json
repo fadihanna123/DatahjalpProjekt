@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@html-eslint/eslint-plugin": "0.52.1",
-    "@html-eslint/parser": "0.52.0",
+    "@html-eslint/parser": "0.54.0",
     "eslint": "9.39.2",
     "globals": "16.5.0",
     "htmlhint": "1.8.0",
